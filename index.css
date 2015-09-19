@@ -8,6 +8,8 @@
 }
 
 .column {
+	width:360px;
+	margin-top: 20px;
 	margin-left: 40px;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
@@ -15,7 +17,6 @@
 }
 
 h1 {
-	margin-top: 10px;
 	font-size: 20px;
 
 }
