@@ -14,9 +14,9 @@ h1 {
 
 body {
 	margin:0 auto;
+	padding-left: 10px;
 	font-size: 10px;
-	
-}
+	}
 
 ul {
 	text-decoration: none;
