@@ -1,28 +1,25 @@
 #container {
-	width:1070px;
+	width:1080px;
 	margin:0 auto;
-	background-image: url('images/collage.jpg')
+	background-image: url('images/collage.jpg');
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
 }
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	color: white;
 
 }
 
-}
 body {
 	margin:0 auto;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
-	color: white;
 	
 }
 
 ul {
 	text-decoration: none;
-	color: white;
     list-style: none;
 }
 
