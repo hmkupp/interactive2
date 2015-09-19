@@ -1,15 +1,22 @@
 #container {
-	width:1080px;
 	margin:0 auto;
 	background-image: url('images/collage.jpg')
 }
 
+h1 {
+	font-family:'Frutiger 55 Roman';
+	font-size: 14px;
+}
+
+}
 body {
 	margin:0 auto;
 	color: white;
 }
 
 ul {
+	color: white;
     list-style: none;
 }
+
 
