@@ -7,16 +7,18 @@
 
 }
 
+
 h1 {
 	margin-left: 20px;
 	font-size: 20px;
 
 }
 
-body {
-	margin-left: 20px;
-	font-size: 10px;
-	}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
 
 ul {
 	color: white;
