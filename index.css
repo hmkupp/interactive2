@@ -1,12 +1,14 @@
 #container {
+
 	margin:0 auto;
 	background-image: url('images/collage.jpg')
 }
 
 h1 {
-	font-family: "Frutiger 55 Roman";
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	
+	color: white;
+
 }
 
 }
