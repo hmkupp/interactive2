@@ -87,6 +87,24 @@ hr {
 
 }
 
+.main-nav-categories ul{
+	color: #f75352;
+	display:inline-block;
+	float:right;
+	width:815px;
+	height:34px;
+	margin-left:166px;
+}
+
+.col-left li{
+	color: #f75352;
+	list-style:none;
+	color:#f75352;
+	margin-left:28px;
+	position:relative;
+	height:34px;
+}
+
 #wrapper {
 	position: relative;
     width: 100%;
