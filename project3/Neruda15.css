@@ -1,0 +1,31 @@
+#container {
+	width: 2000px;
+	margin:0 auto;
+	padding:0px;
+}
+
+#column {
+	display: relative;
+	margin:0 auto;
+	width:240px;
+	float:left;
+
+}
+
+.block {
+	text-align: center;
+	width:200px;
+	height:140px;
+	margin:10px;
+	border: 2px dotted black;
+	float:left;
+
+}
+
+.border {
+    text-align: center;
+    width: 100px;
+    height:100px;
+    margin:48px;
+    float: left;
+}
