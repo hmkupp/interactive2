@@ -1,23 +1,20 @@
 #container {
-	width: 960px;
+	width: 1526px;
+    margin: 0 auto;
 	margin:0 auto;
-	padding:100px;
 }
 
 #column {
-	width:240px;
-	padding:80px;
-	border: 2px dotted #ECB2AA;
-	float:left;
+    position: relative;
+    padding: 0;
 
 }
 
 .block {
-	width:200px;
-	height:200px;
-	margin:10px;
-	border: 2px solid #ECB2AA;
-	float:left;
+	/* width: 420px; */
+    height: 141px;
+    border-bottom: 5px solid #A7C8CD;
+    /* float: right; */
 }
 
 .border {
@@ -25,6 +22,12 @@
     width: 100px;
     height:100px;
     margin:48px;
-    border: 2px dotted #ECB2AA;
+    border: 2px hidden #ECB2AA;
     float: left;
+    color:#87AFB4;
 }
+
+	/*width: 1300px;
+    height: 141px;
+    border: 14px solid black;
+    /* float: right; */
