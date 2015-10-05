@@ -1,31 +1,30 @@
 #container {
-	width: 2000px;
+	width: 400px;
+	width:20%;
 	margin:0 auto;
 	padding:0px;
 }
 
 #column {
-	display: relative;
-	margin:0 auto;
-	width:240px;
-	float:left;
-
+	padding: 5px;
+    margin: 172px;
+    border-left: 8px solid #DE722D;
+    border-right: 8px solid #B00F14;
 }
 
 .block {
-	text-align: center;
-	width:200px;
-	height:140px;
-	margin:10px;
-	border: 2px dotted black;
-	float:left;
+	 width: 8px;
+    height: 10px;
+    margin: 15px;
+    border-right: 8px solid #DE722D;
+    border-left: 8px solid #B00F14;
+    float: left;
 
 }
 
 .border {
-    text-align: center;
-    width: 100px;
-    height:100px;
-    margin:48px;
+    width: 20px;
+    height: 100px;
+    margin: 48px;
     float: left;
 }
