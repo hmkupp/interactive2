@@ -1,38 +1,54 @@
 
 #container {
-	font-size:12px;
+	font-size:8px;
 	color:white;
+	margin: 0 auto;
 
 	}
 
 #green {
+	padding:25px;
+	border:2px dotted #5D8959;
 	text-align:center;
-	width:200px;
-	height:200px;
-	background-color:#5D8959;
+	width:150px;
+	height:150px;
+	color:#5D8959;
 	float:left;
 
 }
 
 #lime {
+	padding:25px;
+	border:2px dotted #9ED436;
 	text-align:center;
-	height:200px;
-	width:200px;
-	background-color:#9ED436;
+	width:150px;
+	height:150px;
+	color:#9ED436;
 	float:left;
 
 }
 
 .dotted{
-	width:60px;
-	height:60px;
-	border:2px dotted white;
+	margin:0 auto;
+	width:70px;
+	height:70px;
+	border:4px dotted #5D8959;
+
+
+}
+
+.dotted2{
+	margin: 0 auto;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px dotted #9ED436;
 
 }
 
 .text{
-	padding-top:60px;
-	margin-top:20px;
-	margin:0 auto;
-	width:40px;
+	    padding-top: 40px;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 40px;
 }
