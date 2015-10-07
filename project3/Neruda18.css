@@ -1,10 +1,49 @@
 #container {
-	width:1017;
+	padding-top:40px;
+	width:3000px;
 	margin: 0 auto;
 
 	}
 
 #border {
-	border: 20px solid #8a748b;
-	margin: 0 auto;
+   position: inherit;
+    /* display: inline-block; */
+    color: #8a748b;
+    width: .04px;
+    border: 8px solid white;
+    margin: 0 auto;
+    float: right;
+}
+
+#line1 {
+	width:1000px;
+	position:fixed;
+    left: 420px;
+    top: 90px;
+    z-index: 2;
+	color:#C6A6B1;
+}
+
+#line2 {
+	position:absolute;
+    left: 800px;
+    top: 90px;
+    z-index: 2;
+	color:#CCBDC0;
+}
+
+#line3 {
+	position:absolute;
+    left: 1200px;
+    top: 90px;
+    z-index: 2;
+	color:#CCBDC0;
+}
+
+#line4 {
+	position:absolute;
+    left: 1400px;
+    top: 90px;
+    z-index: 2;
+	color:#CCBDC0;
 }
