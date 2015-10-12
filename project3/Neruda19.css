@@ -46,9 +46,10 @@
     text-align: left;
     position: fixed;
     left: 635px;
-    top: 50px;
+    top: 120px;
     z-index: 2;
     color: #FFFFFF;
+
 }
 
 /*#text {
