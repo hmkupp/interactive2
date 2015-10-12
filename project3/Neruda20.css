@@ -1,23 +1,32 @@
 
 #container {
-    width:800px;
-
+    border: solid 10px;
+    border-color: rgb(160, 7, 45);
+    padding-top: 40px;
+    margin-right: 300px;
+    width: 0px;
+    margin: 0 auto;
 
     }
 
 #container2 {
     border: solid 10px;
-    border-color: #BB0935;
-
-  
+    border-color: rgb(160, 7, 45);
+    padding-top: 40px;
+    margin-right: 300px;
+    width: 0px;
+    margin: 0 auto;
 
     }
 
 
 #container3 {
     border: solid 10px;
-    border-color: #D20A3B;
-   
+    border-color: rgb(160, 7, 45);
+    padding-top: 40px;
+    margin-right: 300px;
+    width: 0px;
+    margin: 0 auto;
 
     }
 
@@ -28,63 +37,12 @@
     padding-top: 40px;
     margin-right: 300px;
     width: 0px;
-   
+    margin: 0 auto;
 
     }
 
 
 #container5 {
-    border: solid 10px;
-    border-color: rgb(160, 7, 45);
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-   
-
-    }
-
-#container6 {
-    border: solid 10px;
-    border-color: rgb(160, 7, 45);
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
-
-    }
-
-#container7 {
-    border: solid 10px;
-    border-color: rgb(160, 7, 45);
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
-
-    }
-
-
-#container8 {
-    border: solid 10px;
-    border-color: rgb(160, 7, 45);
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
-
-    }
-
-#container9 {
-    border: solid 10px;
-    border-color: rgb(160, 7, 45);
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
-
-    }
-
-#container10 {
     border: solid 10px;
     border-color: rgb(160, 7, 45);
     padding-top: 40px;
@@ -103,6 +61,8 @@
     margin: 0 auto;
 
     }
+
+
 
 /*#border {
      width:300px;
@@ -137,7 +97,7 @@
     top: 90px;
     z-index: 2;
 
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line3 {
@@ -147,7 +107,7 @@
     top: 90px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line4 {
@@ -157,7 +117,7 @@
     top: 90px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line5 {
@@ -167,7 +127,7 @@
     top: 120px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line6 {
@@ -177,7 +137,7 @@
     top: 120px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line7 {
@@ -187,7 +147,7 @@
     top: 120px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 
@@ -200,7 +160,7 @@
     top: 140px;
     z-index: 2;
        
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line9 {
@@ -211,7 +171,7 @@
     z-index: 2;
         color: #E6004F;
      color: #E6004F;
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line10{
@@ -221,7 +181,7 @@
     top: 140px;
     z-index: 2;
        
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line11 {
@@ -231,7 +191,7 @@
     top: 140px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line12 {
@@ -241,7 +201,7 @@
     top: 160px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 
@@ -252,7 +212,7 @@
     top: 160px;
     z-index: 2;
        
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line14 {
@@ -261,7 +221,7 @@
     top: 160px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line15 {
@@ -270,7 +230,7 @@
     top: 160px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line16 {
@@ -280,7 +240,7 @@
     top: 180px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line17 {
@@ -290,7 +250,7 @@
     top: 200px;
     z-index: 2;
       
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 #line18 {
@@ -300,7 +260,7 @@
     top: 200px;
     z-index: 2;
         
- color:#E6004F;   letter-spacing: 40px;
+ background-color:#E6004F;   letter-spacing: 40px;
 }
 
 
