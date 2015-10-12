@@ -1,9 +1,13 @@
 /*font-family: 'Quicksand', sans-serif;*/
 
 #container {
-	background-image:flower2.jpg;
 	width:1440px;
 	margin:0 auto;
 }
 
+#title {
+	background-color:#8D7C99
+	font-family: 'Pinyon Script', cursive;
+	font-size:12px;
 
+}
