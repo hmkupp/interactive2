@@ -36,9 +36,9 @@
 .title {
 	position: fixed;
     left: 1200px;
-    top: 50px;
+    top: 75px;
     z-index: -5;
-    color: #E4D6D2;
+    color: #8E787D;
 }
 
 #text2 {
