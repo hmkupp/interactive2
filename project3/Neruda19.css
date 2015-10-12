@@ -37,6 +37,14 @@
 	position: absolute;
     left: 630px;
     top: 75px;
+    z-index: -1;
+    color: #E4D6D2;
+}
+
+#text {
+	position: absolute;
+    left: 630px;
+    top: 75px;
     z-index: 2;
     color: #FFFFFF;
 }
