@@ -6,7 +6,20 @@
 
     }
 
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
 #border {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+     /**/
     width:1200px;
     /* display: inline-block; */
     color: #D7D4DB;
@@ -17,11 +30,6 @@
 }
 
 #line1 {
-    animation: heartpop 2s 1.25s ease-out both;
-    transform-origin: 50% 50%;
-    transform: scale(0);
-    -moz-transform: scale(1);
-    animation: hover 2s -0.5s ease-in-out infinite both;
     width:1700px;
     position:fixed;
     left: 420px;
@@ -31,8 +39,6 @@
 }
 
 #line2 {
-    animation: fadeout 1.5s 10s ease-in both;
-    animation: hover 2s ease-in-out infinite both;
     position:absolute;
     left: 800px;
     top: 90px;
