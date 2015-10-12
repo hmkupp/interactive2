@@ -77,13 +77,13 @@
 }
 
 #line6 {
-    width:100px;
-    position:absolute;
+  width: 100px;
+    position: absolute;
     left: 1000px;
-    top: 120px;
+    top: 0px;
     z-index: 2;
-        
- background-color:#E6004F;   letter-spacing: 40px;
+    background-color: #E6004F;
+    letter-spacing: 40px;
 }
 
 #line7 {
