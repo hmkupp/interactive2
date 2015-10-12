@@ -34,9 +34,9 @@
 }
 
 #text {
-	position:absolute;
-    left: 1200px;
-    top: 90px;
+	position: absolute;
+    left: 630px;
+    top: 75px;
     z-index: 2;
-	color:#64697C;
+    color: #FFFFFF;
 }
