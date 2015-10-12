@@ -37,7 +37,7 @@
 	position: fixed;
     left: 920px;
     top: 76px;
-    z-index: -5;
+    z-index: 2;
     color: #8E787D;
     font-size: 12px;
 
