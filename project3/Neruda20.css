@@ -26,12 +26,12 @@
 }
 
 #line1 {
-    position: center;
-    width:100px;
-    position:absolute;
+        position: center;
+    /* width: 100px; */
+    position: absolute;
     left: 420px;
-    top: 90px;
-    z-index: 2;
+    /* top: 90px; */
+    /* z-index: 2; */
     color: #E6004F;
     letter-spacing: 40px;
 }
