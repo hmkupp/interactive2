@@ -42,9 +42,9 @@
 }
 
 #text {
-	    position: absolute;
+	position: absolute;
     left: 630px;
-    top: 55px;
-    z-index: 1;
+    top: 130px;
+    z-index: 8;
     color: #FFFFFF;
 }
