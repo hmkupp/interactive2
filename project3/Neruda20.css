@@ -3,8 +3,7 @@
 #container {
     padding-top: 40px;
     margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
+    width: 440px;
 
     }
 
@@ -22,6 +21,7 @@
 }*/
 
 #text{
+    float:right;
    width:400px;
 }
 
