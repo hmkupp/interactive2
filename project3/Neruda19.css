@@ -34,10 +34,10 @@
 }
 
 .title {
-	position: absolute;
+	position: relative;
     left: 630px;
-    top: 48px;
-    z-index: -5;
+    top: 25px;
+    z-index: 4;
     color: #E4D6D2;
 }
 #text2 {
