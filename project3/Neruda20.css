@@ -2,20 +2,15 @@
 #container {
     border: solid 10px;
     border-color: rgb(160, 7, 45);
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
+
 
     }
 
 #container2 {
     border: solid 10px;
     border-color: #BB0935;
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
+
+  
 
     }
 
@@ -23,10 +18,7 @@
 #container3 {
     border: solid 10px;
     border-color: #D20A3B;
-    padding-top: 40px;
-    margin-right: 300px;
-    width: 0px;
-    margin: 0 auto;
+   
 
     }
 
@@ -37,7 +29,7 @@
     padding-top: 40px;
     margin-right: 300px;
     width: 0px;
-    margin: 0 auto;
+   
 
     }
 
@@ -48,7 +40,7 @@
     padding-top: 40px;
     margin-right: 300px;
     width: 0px;
-    margin: 0 auto;
+   
 
     }
 
