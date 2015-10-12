@@ -36,15 +36,15 @@
 #text2 {
 	position: absolute;
     left: 630px;
-    top: 75px;
-    z-index: -1;
+    top: 40px;
+    z-index: 2;
     color: #E4D6D2;
 }
 
 #text {
-	position: absolute;
+	    position: absolute;
     left: 630px;
-    top: 75px;
-    z-index: 2;
+    top: 55px;
+    z-index: 1;
     color: #FFFFFF;
 }
