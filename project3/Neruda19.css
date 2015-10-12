@@ -32,3 +32,11 @@
     height: 380px;
     float: left;
 }
+
+#text {
+	position:absolute;
+    left: 1200px;
+    top: 90px;
+    z-index: 2;
+	color:#64697C;
+}
