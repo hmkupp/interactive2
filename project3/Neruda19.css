@@ -37,12 +37,14 @@
 	position: absolute;
     left: 630px;
     top: 48px;
-    z-index: -1;
+    z-index: -5;
     color: #E4D6D2;
 }
 #text2 {
-	position: fixed;
-    left: 630px;
+	font-size: 10px;
+    text-align: left;
+    position: fixed;
+    left: 655px;
     top: 48px;
     z-index: 2;
     color: #E4D6D2;
