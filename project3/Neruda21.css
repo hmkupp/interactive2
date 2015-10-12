@@ -1,13 +1,19 @@
 /*font-family: 'Quicksand', sans-serif;*/
 
 #container {
-	width:1440px;
+	width:1000px;
 	margin:0 auto;
 }
 
 #title {
-	background-color:#8D7C99
-	font-family: 'Pinyon Script', cursive;
-	font-size:12px;
+	position: center;
+    margin-left: 400px;
+    margin: 0 auto;
+    height: 400px;
+    /* background-color: #8D7C99; */
+    font-family: 'Meddon', cursive;
+    font-size: 28px;
+    margin-left: 500px;
+    margin-top: 200px;
 
 }
