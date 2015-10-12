@@ -3,7 +3,7 @@
 	height:380px;
 	margin:0 auto;
 	margin-top:80px;
-	border:40px solid #E4D6D2;
+	border:42px solid #E4D6D2;
 }
 
 #box {
@@ -36,7 +36,7 @@
 #text2 {
 	position: absolute;
     left: 630px;
-    top: 40px;
+    top: 48px;
     z-index: 2;
     color: #E4D6D2;
 }
