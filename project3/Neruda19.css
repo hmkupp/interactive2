@@ -34,12 +34,13 @@
 }
 
 .title {
-	position: relative;
-    left: 630px;
-    top: 25px;
-    z-index: 4;
+	position: fixed;
+    left: 1200px;
+    top: 50px;
+    z-index: -5;
     color: #E4D6D2;
 }
+
 #text2 {
 	font-size: 14px;
     text-align: left;
