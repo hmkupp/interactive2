@@ -35,10 +35,12 @@
 
 .title {
 	position: fixed;
-    left: 1200px;
-    top: 75px;
+    left: 925px;
+    top: 76px;
     z-index: -5;
     color: #8E787D;
+    font-size: 12px;
+
 }
 
 #text2 {
