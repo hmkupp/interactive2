@@ -3,7 +3,6 @@
 #container {
     background-color:black;
 	width:1200px;
-	margin-top: 40px;
 	margin: 0 auto;
 }
 
@@ -11,7 +10,7 @@
     margin:0 auto;
     position:fixed;
     width:1200px;
-    z-index:4;
+    z-index:-1;
     margin-top:50px;
     border-top:4px dotted #FFFF00;
 }
