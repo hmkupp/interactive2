@@ -1,23 +1,25 @@
 /*font-family: 'Quicksand', sans-serif;*/
 
 #container {
-	width:1000px;
+    background-color:black;
+	width:1200px;
 	margin-top: 40px;
 	margin: 0 auto;
 }
 
 #dots {
-    margin:10 px;
-    border-radius: 50%px;
-    border-height:10px;
-    border-color: #E09291;
-    border-top:4px dotted #E09291;
+    margin:0 auto;
+    position:fixed;
+    width:1200px;
+    z-index:4;
+    margin-top:50px;
+    border-top:4px dotted #FFFF00;
 }
 #title { 
     margin:0 auto;
     text-align:center;
     margin-top: 50px;
-    color: #E09291;
+    color: #FFFF00;
     font-family: 'Codystar';
     font-size: 165px;
     letter-spacing:2px;
