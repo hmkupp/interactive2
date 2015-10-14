@@ -7,10 +7,11 @@
 }
 
 #dots {
-     border-radius: 50%px;
+    margin:10 px;
+    border-radius: 50%px;
     border-height:10px;
     border-color: #E09291;
-    border-top:5px dotted #E09291;
+    border-top:4px dotted #E09291;
 }
 #title { 
     margin:0 auto;
