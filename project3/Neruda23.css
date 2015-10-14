@@ -10,11 +10,11 @@
     margin:0 auto;
     position:fixed;
     width:1200px;
-    z-index:-1;
     margin-top:50px;
-    border-top:4px dotted #FFFF00;
+    border-top:3.5px dotted #FFFF00;
 }
 #title { 
+    z-index:4;
     margin:0 auto;
     text-align:center;
     margin-top: 50px;
