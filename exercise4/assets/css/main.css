@@ -13,3 +13,23 @@ body {
 	background: white;
 	position: relative;
 }
+
+.canvas.one {
+	background: #DA961B;
+}
+
+
+.object {
+	position:absolute;
+}
+
+/*SPHERE*/
+
+.sphere {
+	background: white;
+	height: 151px;
+	width: 151px;
+	border-radius: 50%;
+	margin: 20px 40px 20px 40px;
+}
+
