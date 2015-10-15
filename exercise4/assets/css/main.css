@@ -85,3 +85,50 @@ body {
 	bottom:-9px;
 	left:8px;
 }
+
+.water-glass-container .water-level{
+		width: 98px;
+		height: 24px;
+		border-radius: 50%;
+		background:rgba(245, 231, 207, 0.62);
+		bottom:66.6666%;
+}
+
+
+.canvas.two {
+	background: #FFC000;
+}
+
+.object {
+	position:absolute;
+}
+
+.vase-container {
+	height: 380px;
+	width:120px;
+	background:white;
+	left: 195px;
+	bottom: 95px;
+	opacity:0.4;
+}
+
+.vase-container .glass {
+	border-radius: 15px;
+	border-bottom: 225px solid blue;
+	border-left:20px solid transparent;
+	border-right:20px solid transparent;
+	width: 120px;
+	margin-top:150px;
+	/*opacity:0.4;*/
+}
+
+.vase-container .stems {
+	border-radius: 600px 300px 5px 5px;
+	height: 90%;
+	border-left:20px double green;
+	background-clip: padding-box;
+	padding:6px;
+	margin-left:22px;
+	float:left;
+}
+
