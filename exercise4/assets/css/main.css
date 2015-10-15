@@ -26,10 +26,62 @@ body {
 /*SPHERE*/
 
 .sphere {
+	border-radius:50%;
 	background: white;
-	height: 151px;
-	width: 151px;
-	border-radius: 50%;
-	margin: 20px 40px 20px 40px;
+	height: 300px;
+	width: 300px;
+	bottom: 160px;
+	left:480px;
+
 }
 
+/* Squash */
+
+.squash {
+	-ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+	background: #FF6B00;
+	height: 151px;
+	width: 151px;
+	border-radius:44%;
+	bottom:180px;
+	left:200px;
+}
+
+.water-glass-container {
+	height: 225px;
+	width:100px;
+	background:none;
+	left: 450px;
+	bottom: 120px;
+}
+
+.water-glass-container .glass {
+	border-top: 225px solid rgba(242, 214, 163, 0.54);
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	height: 0;
+	width: 100px;
+	/*opacity:0.4;*/
+
+}
+
+.water-glass-container .top{
+	width:100px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: rgba(247, 231, 202, 0.9);
+	border: 1px solid white;
+	top:-12px;
+
+}
+
+.water-glass-container .bottom{
+	width:85px;
+	height: 25px;
+	border-radius: 50%;
+	background:rgba(239, 219, 183, 0.97);
+	bottom:-9px;
+	left:8px;
+}
