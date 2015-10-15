@@ -106,10 +106,10 @@ body {
 .vase-container {
 	height: 380px;
 	width:120px;
-	background:white;
+	background:none;
 	left: 195px;
 	bottom: 95px;
-	opacity:0.4;
+	
 }
 
 .vase-container .glass {
@@ -132,3 +132,12 @@ body {
 	float:left;
 }
 
+.vase-container .stem-one {
+	border-radius: 600px 400px 5px 5px;
+	height: 90%;
+	border-left:20px #02BC02;
+	background-clip: padding-box;
+	padding:6px;
+	margin-left:34px;
+	float:left;
+}
