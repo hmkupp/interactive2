@@ -11,8 +11,8 @@
     position:fixed;
     width:1200px;
     margin-top:50px;
-    border-top:4px dotted #FFFF00;
 }
+
 #title { 
     z-index:4;
     margin:0 auto;
