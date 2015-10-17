@@ -1,0 +1,356 @@
+#container {
+    margin-top:20px;
+    margin:0 auto;
+	width:1200px;
+}
+
+#author {
+    color:#2e8360;
+    line-height:1.75em;
+    float:left;
+    width:1em;
+    letter-spacing:20px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    font-family: 'Alegreya SC', serif;
+    font-size: 9px;
+}
+
+#title { 
+    bottom-margin:1px;
+    margin-left:540px;
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 12px;
+
+}
+
+.light-blue {
+    color:#e1f0f5;
+}
+
+.blue-two {
+    color:#bad2da;
+}
+
+.blue-three {
+    color:#a2bac1;
+}
+
+.blue-four {
+    color:#7d979f;
+}
+
+.blue-five {
+    color:#5c7076;
+}
+
+.blue-six {
+    color:#50685b;
+}
+
+.blue-seven {
+    color:#2e8360;
+}
+
+.blue-eight {
+    color:#1d8f60;
+}
+
+.blue-nine {
+    color:#06945a;
+}
+
+.blue-ten {
+    color:#58b38e;
+
+}
+
+.blue-eleven {
+    color:#58b38e;
+}
+
+
+.blue-twelve {
+    color:#58b38e;
+}
+
+
+.blue-thirteen {
+    color:#58b38e;
+}
+
+
+.blue-fourteen {
+    color:#7cc0a4;
+}
+
+.blue-fifteen {
+    color:#8ecfb4;
+}
+
+.blue-sixteen {
+    color:#8ecfb4;
+}
+
+.blue-seventeen {
+    color:#8ecfb4;
+}
+
+.blue-eighteen {
+    color:#accec0;
+
+}
+
+.blue-nineteen {
+    color:#a3cfbd;
+
+}
+
+.blue-twenty {
+    color:#bcdccf;
+}
+
+.blue-twentyone {
+    color:#cdddd7;
+}
+
+.blue-twentytwo {
+    color:#dbe1de;
+}
+
+.blue-twentythree {
+    color:#;
+
+}
+
+}
+#text {
+   margin:0 auto;
+   
+}
+
+
+
+#verse1 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+
+#verse2 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse3 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse4 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse5 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse6 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse7 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+#verse8 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+#verse9 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse10 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse11 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse12 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse13 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse14 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+#verse15 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse16 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse17 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse18 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+#verse19 { 
+    float:left;
+    width:1em;
+    letter-spacing:40px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    color: #000000;
+    font-family: 'Alegreya SC', serif;
+    font-size: 10px;
+
+}
+
+
+
+
+
