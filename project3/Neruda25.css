@@ -1,0 +1,40 @@
+#container {
+	width: 960px;
+	margin:0 auto;
+	padding:100px;
+}
+
+#column {
+	width:240px;
+	padding:80px;
+	background-color: 2px #ECB2AA;
+	float:left;
+
+}
+
+.block {
+	width:200px;
+	height:200px;
+	margin:10px;
+	border: 2px solid #ECB2AA;
+	float:left;
+}
+
+.border {
+    text-align: center;
+    width: 100px;
+    height:100px;
+    margin:48px;
+    border: 2px dotted #ECB2AA;
+    float: left;
+}
+
+.border2 {
+	text-align: center;
+    width: 100px;
+    height:100px;
+    margin:48px;
+    border: 2px dotted #ECB2AA;
+    float: left;
+
+}
