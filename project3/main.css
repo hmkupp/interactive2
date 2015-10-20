@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+
+}
+
+/*.cool {
+	background:aqua;
+	height: 300px;
+	width:300px;
+	border:20px inset red;
+}*/
+
+.letter {
+	width:300px;
+	height:450px;
+	/*float: left;*/
+	display:inline-block;
+	background:lime;
+	margin: 0 8px 8px 0;
+}
