@@ -17,4 +17,15 @@
 	display:inline-block;
 	background:lime;
 	margin: 0 8px 8px 0;
+	position:relative;
+}
+
+.h .v1 {
+	height: 100%;
+	left:0;
+	height: 100%;
+	width: 6px;
+	background:black;
+	position:absolute;
+
 }
