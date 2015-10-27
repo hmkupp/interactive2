@@ -1,0 +1,15 @@
+.stemtop {
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+position:absolute;
+content:'';
+top:65px;
+left:-16px;
+width:60px;
+height:45px;
+border-width:0 16px15px16px;
+border-color:#000000;
+border-style:solid;
+border-radius:0 0 200%200% /0 0 300%300%;
+}
