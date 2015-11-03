@@ -1,11 +1,119 @@
-.stemtop {
-  -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+.h-stemtop {
+-ms-transform: rotate(180deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+transform: rotate(180deg);
 position:absolute;
 content:'';
 top:65px;
-left:-16px;
+left:16px;
+width:60px;
+height:45px;
+border-width:0 16px15px16px;
+border-color:#000000;
+border-style:solid;
+border-radius:0 0 200%200% /0 0 300%300%;
+}
+
+
+.h-stemmiddle{
+position:relative;
+top: 105px;
+left: 8px;
+width:60px;
+height:120px;
+border-width:0 16px0 16px;
+border-color:#000000;
+border-style:solid;
+}
+
+.h-stembottom {
+position:absolute;
+content:'';
+top:236px;
+left:16px;
+width:60px;
+height:45px;
+border-width:0 16px15px16px;
+border-color:#000000;
+border-style:solid;
+border-radius:0 0 200%200% /0 0 300%300%;
+}
+
+.h-crossbar:before{
+top: 150px;
+left: 16px;
+-ms-transform: rotate(180deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+transform: rotate(180deg);
+position:absolute;
+content:'';
+width:60px;
+height:50px;
+border-width:13px15px13px0;
+border-color:#000000;
+border-style:solid;
+border-radius:0 220%220%0 /0 180%180%0;
+}
+
+.h-crossbarmiddle:before{
+    top: 150px;
+    left: 80px;
+    position: absolute;
+    content: '';
+    width: 36px;
+    height: 50px;
+    border-width: 13px15px13px0;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.h-crossbarright:before{
+top: 150px;
+left: 120px;
+position:absolute;
+content:'';
+width:60px;
+height:50px;
+border-width:13px15px13px0;
+border-color:#000000;
+border-style:solid;
+border-radius:0 220%220%0 /0 180%180%0;
+}
+
+
+.h-stemtop2 {
+-ms-transform: rotate(180deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+transform: rotate(180deg);
+position:absolute;
+content:'';
+top:65px;
+left:120px;
+width:60px;
+height:45px;
+border-width:0 16px15px16px;
+border-color:#000000;
+border-style:solid;
+border-radius:0 0 200%200% /0 0 300%300%;
+}
+
+
+.h-stemmiddle2{
+position:relative;
+    top: -20px;
+    left: 112px;
+width:60px;
+height:120px;
+border-width:0 16px0 16px;
+border-color:#000000;
+border-style:solid;
+}
+
+.h-stembottom2 {
+position:absolute;
+content:'';
+top:236px;
+left:120px;
 width:60px;
 height:45px;
 border-width:0 16px15px16px;
