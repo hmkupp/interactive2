@@ -14,7 +14,7 @@
 }
 
 
-.a-vertical:before{
+.a-vertical{
     border-radius: 25px;
     transform: rotate(60deg);
     top: 131px;
@@ -29,20 +29,21 @@
 
 }
 
-.a-vertical:after {
-    top: -4px;
-    left: -4px;
-    padding: 0;
-    z-index: 10;
-    border: 4px dashed #fff;
-}
-
 .a-vertical:hover {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-    color: #fff;
+    border-radius: 25px;
+    transform: rotate(60deg);
+    top: 131px;
+    left: 38px;
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 55px;
+    border-width: 13px15px13px0;
+     border-color: #E71393;
+    border-style: dotted;
 }
 
-.a-vertical2:before{
+.a-vertical2{
     top: 76px;
     left: 38px;
     border-radius: 25px;
@@ -54,6 +55,21 @@
     border-width: 13px15px13px0;
     border-color: #2601FF;
     border-style: solid;
+
+}
+
+.a-vertical2:hover{
+    top: 76px;
+    left: 38px;
+    border-radius: 25px;
+    transform: rotate(60deg);
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 55px;
+    border-width: 13px15px13px0;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -72,7 +88,16 @@
     border-style: solid;
 }
 
+.a-stemright:hover {
+      border: solid red;
+
+  -webkit-transform: rotate(90deg);
+  transform-origin: 0 90px;
+
+}
+
 /*A finished*/
+
 
 .b-stemleft{
     border-radius: 25px;
@@ -90,7 +115,7 @@
 }
 
 
-.b-vertical:before{
+.b-vertical{
     border-radius: 25px;
     transform: rotate(60deg);
     top: 131px;
@@ -104,6 +129,8 @@
     border-style: solid;
 
 }
+
+
 
 .b-vertical2:before{
     top: 71px;
