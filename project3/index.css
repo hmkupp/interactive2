@@ -1,6 +1,33 @@
+
+#container{
+	display:block;
+    position:absolute;
+	background-image: url("alphabet.png");
+	width:1500px;
+	height:860px;
+}
+
+#nav {
+    margin:25px;
+    float:right;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
 ul {
-	font-family: 'Alegreya SC', serif;
-    font-size: 12px;
-	list-style-type: none;
-	color:#a2bac1;
+    color: #E71393;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+}
+
+#nav ul a{
+    color: #E71393;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    border: solid 2px;
+    padding:10px;
+
 }

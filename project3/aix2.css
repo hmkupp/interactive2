@@ -31,6 +31,9 @@ ul {
     margin:40px;
 }
 
+#a{
+
+}
 
 .a-stemleft{
     border-radius: 25px;
@@ -40,15 +43,11 @@ ul {
     width: 6px;
     height: 60px;
     border-style: solid;
-    border-width: 0 16px0 16px;
+    border-width: 0 16px0 16px; 
     border-color: #2601FF;
-    border-style: solid;
+    
 }
 
-.a-stemleft:hover {
-      border-color: #E71393;
-
-  }
 
 .a-vertical{
     border-radius: 25px;
@@ -60,41 +59,12 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
-}
-
-.a-vertical:hover {
-    border-radius: 25px;
-    transform: rotate(60deg);
-    top: 131px;
-    left: 38px;
-    position: absolute;
-    content: '';
-    width: 6px;
-    height: 55px;
-    border-width: 13px15px13px0;
-     border-color: #E71393;
+    border-color: #E71393;
     border-style: dotted;
 }
 
+
 .a-vertical2{
-    top: 76px;
-    left: 38px;
-    border-radius: 25px;
-    transform: rotate(60deg);
-    position: absolute;
-    content: '';
-    width: 6px;
-    height: 55px;
-    border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
-}
-
-.a-vertical2:hover{
     top: 76px;
     left: 38px;
     border-radius: 25px;
@@ -125,6 +95,7 @@ ul {
 }
 
 .a-stemright:hover {
+      border-color: #E71393;
 
 /*
   -webkit-transform: rotate(90deg);
@@ -161,8 +132,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -178,9 +149,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
+    border-color: #E71393;
+    border-style: dotted;
 }
 
 .b-stemright{
@@ -229,8 +199,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -244,9 +214,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
+     border-color: #E71393;
+    border-style: dotted;
 }
 
 
@@ -282,8 +251,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -297,8 +266,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+ border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -346,8 +315,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -361,8 +330,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+   border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -376,8 +345,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+   border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -431,8 +400,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -446,8 +415,8 @@ ul {
     width: 6px;
     height: 48px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+   border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -484,9 +453,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
+  border-color: #E71393;
+    border-style: dotted;
 }
 
 .g-vertical2{
@@ -499,8 +467,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+   border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -514,8 +482,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -567,8 +535,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -582,8 +550,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -682,8 +650,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -717,8 +685,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -732,8 +700,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -749,8 +717,8 @@ ul {
     border-color: #000000;
     border-style: solid;
     border-width: 0 16px0 16px;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 }
 
 
@@ -820,8 +788,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -850,8 +818,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -905,8 +873,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -959,9 +927,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
+     border-color: #E71393;
+    border-style: dotted;
 }
 
 .o-vertical2{
@@ -974,8 +941,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1033,8 +1000,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1048,8 +1015,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1102,8 +1069,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1117,8 +1084,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1170,12 +1137,25 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
+.r-vertical2{
+   top: 314px;
+    left: 120px;
+    border-radius: 25px;
+    transform: rotate(60deg);
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 55px;
+    border-width: 13px15px13px0;
+   border-color: #E71393;
+    border-style: dotted;
 
+}
 
 .r-stemleft{
     border-radius: 25px;
@@ -1224,8 +1204,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1239,8 +1219,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1254,8 +1234,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1308,8 +1288,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1346,9 +1326,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
-
+    border-color: #E71393;
+    border-style: dotted;
 }
 
 
@@ -1402,8 +1381,8 @@ ul {
     width: 6px;
     height: 70px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 }
 
 
@@ -1455,8 +1434,8 @@ ul {
     width: 6px;
     height: 60px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1503,8 +1482,8 @@ ul {
     width: 6px;
     height: 60px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1524,8 +1503,8 @@ ul {
     width: 6px;
     height: 100px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1539,8 +1518,8 @@ ul {
     width: 6px;
     height: 75px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1577,8 +1556,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1592,8 +1571,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1607,8 +1586,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1660,8 +1639,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+    border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1675,8 +1654,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+     border-color: #E71393;
+    border-style: dotted;
 
 }
 
@@ -1690,8 +1669,8 @@ ul {
     width: 6px;
     height: 55px;
     border-width: 13px15px13px0;
-    border-color: #2601FF;
-    border-style: solid;
+   border-color: #E71393;
+    border-style: dotted;
 
 }
 
