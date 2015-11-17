@@ -23,11 +23,12 @@ ul {
 }
 
 #nav ul a{
+	background-color:#FFFFFF;
     color: #E71393;
     text-align:center;
     text-decoration: none;
     display: block;
-    border: solid 2px;
+    border: solid 3px;
     padding:10px;
 
 }
