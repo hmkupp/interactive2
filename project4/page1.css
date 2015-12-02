@@ -36,8 +36,18 @@ width:50%;
 	padding: 20px; 
 }
 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
 
-#A_1 {
+#shop {
     box-sizing: border-box;
     color: rgb(189, 79, 92);
     display: block;
@@ -53,4 +63,22 @@ width:50%;
     outline: rgb(189, 79, 92) none 0px;
     transition: background-color 0.5s ease-in-out 0s;
 }
+
+#discover {
+    box-sizing: border-box;
+    color: rgb(189, 79, 92);
+    display: block;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    width: 179px;
+    perspective-origin: 89.5px 45px;
+    transform-origin: 89.5px 45px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(189, 79, 92);
+    font: normal normal normal normal 21px / 90px filosofia-regular, 'Times New Roman', serif;
+    outline: rgb(189, 79, 92) none 0px;
+    transition: background-color 0.5s ease-in-out 0s;
+}
+
 
