@@ -12,6 +12,17 @@
 	font-size:18pt;
 }
 
+#navbar {
+	position:absolute;
+	width:1400px;
+}
+
+#navbar li{	
+display: inline; 
+padding: 20px; 
+}
+
+
 #A_1 {
    background-color:#f9f4ec;
     box-sizing: border-box;
