@@ -4,6 +4,7 @@
 }
 
 #title {
+	margin-top:40px;
 	font-family: 'Crimson Text Normal 400';
 	text-align:center;
 	color:rgb(189, 79, 92);
@@ -31,9 +32,11 @@ width:50%;
 }
 
 .nav li {  
+	height:90px;
     	border-right: 1px solid #ADD8E6;	
 	display: inline-block; 
-	padding: 20px; 
+	padding: 20px;
+	 color: rgb(189, 79, 92); 
 }
 
 .nav a {
@@ -43,12 +46,11 @@ width:50%;
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  text-decoration:underline;
 }
 
 li #shop {
     box-sizing: border-box;
-    color: rgb(189, 79, 92);
     display: block;
     height: 90px;
     text-align: center;
