@@ -1,5 +1,5 @@
 #container{
-	padding-top:40px;
+	padding-top:0px;
 	width:1400px;
 }
 
@@ -11,19 +11,18 @@
 }
 
 .nav { 
-    position: absolute;
+  /*  position: absolute;
     top: 0px;
     left: 0px;
     margin: 0px;
     display: inline-block;
     vertical-align: middle;
     width: 360px;
-    z-index: 300;
+    z-index: 300;*/
     background: #FFFFFF;
 }
 
 .nav ul {
- display: inline-block;
 width:50%;
   list-style: none;
   text-align: center;
@@ -35,7 +34,6 @@ width:50%;
     	border-right: 1px solid #ADD8E6;	
 	display: inline-block; 
 	padding: 20px; 
-	list-style:none;
 }
 
 
