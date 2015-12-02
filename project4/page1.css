@@ -23,7 +23,8 @@
 }
 
 .nav ul {
-	width:50%;
+ display: inline-block;
+width:50%;
   list-style: none;
   text-align: center;
   padding: 0;
@@ -39,7 +40,6 @@
 
 
 #A_1 {
-   background-color:#f9f4ec;
     box-sizing: border-box;
     color: rgb(189, 79, 92);
     display: block;
