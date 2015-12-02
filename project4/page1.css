@@ -5,6 +5,7 @@
 }
 
 #title {
+	background-color:#f9f4ec;;
 	font-family: 'Crimson Text Normal 400';
 	text-align:center;
 	color:rgb(189, 79, 92);
@@ -27,4 +28,4 @@
     font: normal normal normal normal 21px / 90px filosofia-regular, 'Times New Roman', serif;
     outline: rgb(189, 79, 92) none 0px;
     transition: background-color 0.5s ease-in-out 0s;
-}/*#A_1*/
+}
