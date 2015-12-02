@@ -7,11 +7,12 @@
 #title {
 	font-family: 'Crimson Text Normal 400';
 	text-align:center;
-	color:#86b0a4;
-	font-size:12pt;
+	color:rgb(189, 79, 92);
+	font-size:18pt;
 }
 
 #A_1 {
+   background-color:#f9f4ec;
     box-sizing: border-box;
     color: rgb(189, 79, 92);
     display: block;
