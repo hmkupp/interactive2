@@ -38,16 +38,15 @@ width:50%;
 
 .nav a {
   text-decoration: none;
-  color: #fff;
   display: block;
-  transition: .3s background-color;
+  transition: .3s;
 }
  
 .nav a:hover {
   background-color: #005f5f;
 }
 
-#shop {
+li #shop {
     box-sizing: border-box;
     color: rgb(189, 79, 92);
     display: block;
@@ -64,7 +63,7 @@ width:50%;
     transition: background-color 0.5s ease-in-out 0s;
 }
 
-#discover {
+li #discover {
     box-sizing: border-box;
     color: rgb(189, 79, 92);
     display: block;
