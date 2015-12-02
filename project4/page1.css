@@ -32,14 +32,13 @@ width:50%;
 }
 
 .nav li {  
-	height:90px;
     	border-right: 1px solid #ADD8E6;	
 	display: inline-block; 
-	padding: 20px;
-	 color: rgb(189, 79, 92); 
+	padding: 20px; 
 }
 
 .nav a {
+color: rgb(189, 79, 92); 
   text-decoration: none;
   display: block;
   transition: .3s;
