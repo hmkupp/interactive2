@@ -1,11 +1,9 @@
 #container{
 	padding-top:40px;
 	width:1400px;
-	background-color:#f9f4ec;
 }
 
 #title {
-	background-color:#f9f4ec;;
 	font-family: 'Crimson Text Normal 400';
 	text-align:center;
 	color:rgb(189, 79, 92);
@@ -17,7 +15,7 @@
 	width:1400px;
 }
 
-#navbar li{	
+#navbar  li{	
 display: inline; 
 padding: 20px; 
 }
