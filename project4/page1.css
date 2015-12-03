@@ -3,14 +3,6 @@
 	width:1400px;
 }
 
-#title {
-	margin-top:40px;
-	font-family: 'Crimson Text Normal 400';
-	text-align:center;
-	color:rgb(189, 79, 92);
-	font-size:18pt;
-}
-
 .nav { 
   /*  position: absolute;
     top: 0px;
@@ -20,6 +12,7 @@
     vertical-align: middle;
     width: 360px;
     z-index: 300;*/
+    padding top:40px;
     background: #FFFFFF;
 }
 
@@ -34,7 +27,7 @@ width:50%;
 .nav li {  
     	border-right: 1px solid #ADD8E6;	
 	display: inline-block; 
-	padding: 20px; 
+	padding: 30px; 
 }
 
 .nav a {
