@@ -3,7 +3,7 @@
 	width:1400px;
 }
 
-<body {
+body {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,6 +16,9 @@
     vertical-align: middle;
     width: 360px;
     z-index: 300;*/
+    font-family: 'Montserrat', sans-serif;
+    text-transform:capitalize;
+	font-size:12px;
     padding top:40px;
     background: #FFFFFF;
 }
@@ -35,8 +38,6 @@ width:50%;
 }
 
 .nav a {
-	text-transform:capitalize;
-	font-size:12px;
 color: rgb(189, 79, 92); 
   text-decoration: none;
   display: block;
