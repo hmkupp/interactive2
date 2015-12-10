@@ -191,6 +191,13 @@ a.gift:hover .default {
   display: none;
 }
 
+a.gift .text {
+  text-align: center;
+  font-style: italic;
+  font-family: Georgia, serif;
+  color: black;
+}
+
 /* Grid system */
 
 .grid-wrap {
