@@ -9,6 +9,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+
 .title{    margin-top: 40px;
     margin-bottom: 20px;
 	width:1200px;
@@ -182,6 +183,9 @@ a.gift .special {
 a.gift:hover .special {
   display: block;
 }
+a.gift:active .special { 
+  background-image: url("image.jpg"); }
+
 
 a.gift:hover .default {
   display: none;
