@@ -6,7 +6,7 @@
 <script>
 
 function changeImage() {
-    var image = document.getElementById('myImage');
+    var image = document.getElementById('gift');
     if (image.src.match("box")) {
         image.src = "blue-open.gif";
     } else {
