@@ -5,13 +5,14 @@
 <head>
 <script>
 
-$(.blue-closed).click(function() {
-    if ($(this).hasClass("clicked")) {
-        $(this).removeClass("clicked");
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("box")) {
+        image.src = "blue-open.gif";
     } else {
-        $(this).addClass("clicked");
+        image.src = "gift-blue.png";
     }
-});
+}
 
 </script>
 </head>
