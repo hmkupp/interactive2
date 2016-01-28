@@ -360,7 +360,10 @@
 }
 
 a {
-    color:#2e8360;
+      font-family: 'Alegreya Bold', serif;
+ margin-left: 6.5px;
+    color: #5c7076;
+    text-decoration: none;
 }
 
 
