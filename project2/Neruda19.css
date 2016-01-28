@@ -61,3 +61,11 @@
     z-index: 8;
     color: #FFFFFF;
 }*/
+
+.navbar {
+    left: 920px;
+    top: 76px;
+    z-index: 2;
+    color: #8E787D;
+    font-size: 12px;
+}
