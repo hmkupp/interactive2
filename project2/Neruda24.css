@@ -350,7 +350,16 @@
 
 }
 
+#navbar{
+      color:#2e8360;
+    line-height:1.75em;
+    float:left;
+    width:1em;
+    letter-spacing:20px; /* arbitrarily large letter-spacing for safety */
+    margin-left:20px;
+    font-family: 'Alegreya SC', serif;
+    font-size: 9px;
 
-
+}
 
 
