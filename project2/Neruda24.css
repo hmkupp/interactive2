@@ -351,9 +351,9 @@
 }
 
 #navbar{
-
-    font-family: 'Alegreya SC', serif;
-    font-size: 9px;
+    font-size:7px;
+    font-family: 'Alegreya Bold 700', serif;
+    text-transform: uppercase;
     letter-spacing: 7px;
     line-height: 117.75em;
     float: left;
@@ -362,6 +362,7 @@
 }
 
 a {
+    font-size:7px;
     font-family: 'Alegreya Bold 700', serif;
     text-transform: uppercase;
     margin-left: 6.5px;
