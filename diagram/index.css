@@ -81,9 +81,8 @@ li::before {
     display: block;
     width: 6px;
     height: 6px;
-    border: 4px solid #9b2;
+    border: 3px solid #9b2;
     border-radius: 10px;
-    background: #eee;
 }
 
 /* ---- Details ---- */
