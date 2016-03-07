@@ -63,9 +63,17 @@
 }*/
 
 .navbar {
+    height:0px;
+    margin-left: 377px;
     left: 920px;
     top: 76px;
-    z-index: 2;
+    /* z-index: 2; */
     color: #8E787D;
     font-size: 12px;
+}
+
+a {
+    color: #8E787D;
+    text-decoration: none;
+
 }

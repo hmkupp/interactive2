@@ -1,0 +1,28 @@
+
+
+#container {
+    width:7400px;
+     margin-top:100px;
+}
+
+#A_1 {
+    margin-left:200px;
+    margin-right:60px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-decoration: none;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal 800 normal 13px / 16.9px 'Gentium Book Basic', serif;
+    list-style: none outside none;
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_1*/
+
+#circle_1 {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(0, 0, 0, 0.2);
+    cx: 509.315px;
+    cy: 361.918px;
+    r: 4.26875px;
+    font: normal normal normal normal 16px / normal Times;
+}/*#circle_1*/
+
