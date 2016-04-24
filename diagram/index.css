@@ -90,18 +90,18 @@ li::before {
 
 .details {
     display: none;
-
     position: absolute;
-    left: -85px;
-    top: 60px;
+    /* left: -85px; */
+    /* top: 60px; */
     padding: 15px;
-    border-radius: 3px;
-    border-right: 2px solid rgba(0,0,0,.1);
-    border-bottom: 2px solid rgba(0,0,0,.1);
-    transform: rotate(45deg);
+    /* border-radius: 3px; */
+    /* border-right: 2px solid rgba(0,0,0,.1); */
+    /* border-bottom: 2px solid rgba(0,0,0,.1); */
+    /* transform: rotate(45deg); */
     font: 12px arial;
     background: #fff;
 }
+
 .details::before {
     content: "";
     position: absolute;
