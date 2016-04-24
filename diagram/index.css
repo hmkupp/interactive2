@@ -87,6 +87,7 @@ li::before {
 
 /* ---- Details ---- */
 
+
 .details {
     display: none;
 
@@ -112,6 +113,11 @@ li::before {
     border: 10px solid transparent;
     border-bottom-color: #fff;
     border-top: 0;
+}
+
+img {
+    -webkit-transform: scale(0.5)
+    padding: 5px;
 }
 
 /* ---- Hover effects ---- */
