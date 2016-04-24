@@ -70,9 +70,9 @@ li {
     display: inline-block;
     float: left;
     width: 150px;
-    transform: rotate(-45deg);
     font: bold 14px arial;
 }
+
 li::before {
     content: "";
     position: absolute;
