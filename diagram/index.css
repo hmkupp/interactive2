@@ -37,7 +37,7 @@
 
 /* ---- Timeline ---- */
 
-ol {
+/* ol {
 }
 
 ol::before,
@@ -60,7 +60,7 @@ ol::after {
     border-right: 0;
     border-left: 20px solid #9b2;
   border-radius: 3px;
-}
+}*/
 
 /* ---- Timeline elements ---- */
 
