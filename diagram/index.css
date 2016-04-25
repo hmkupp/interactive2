@@ -1,28 +1,88 @@
 
 
 #container {
-    width:7400px;
-     margin-top:100px;
+    width: 10000px;
+    margin-top:85px;
+    position: absolute;
+}
+
+#header{
+	position: relative;
+    padding: 85px 60px 0px 65px;
+    float: left;
 }
 
 
 #title {
-    width:362px;
-    margin-top:100px;
-    margin-bottom:40px;
+	position: fixed;
+	font-family: 'Roboto Bold 700', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 548px;
+    margin-left: 40px;
+    left: 70px;
+    top:66px;
+}
+
+#subtitle {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 19.5px;
+    width: 527px;
+    margin-left: 40px;
+    position: relative;
+    float: left;
+}
+
+.linework {
+	margin-left: 81px;
+    /* height: 85%; */
+    /* padding-bottom: 79px; */
+    margin-top: 92px;
+    /* margin-left: 57px; */
+    max-width: 77%;
+    position: absolute;
+    z-index: 5;
+}
+
+#timeline{
+	margin-left: 20px;
+    margin-top: 95px;
+    float: left;
+    position: relative;
+    width: 7800px;
+    height:360px;
+    background-color: #F4F4F4;
+}
+
+#nav{
+	padding-top: 30px;
+	width:7800px;
+	background-color:#F4F4F4;
+	position: relative;
+    float: left;
 }
 
 #A_1 {
+	font-family: 'Roboto Bold 700', sans-serif;
+	font-weight: 700;
+	font-size:19.5px;
     margin-left:200px;
     margin-right:60px;
     color: rgb(0, 0, 0);
     text-align: left;
     text-decoration: none;
     border: 0px none rgb(0, 0, 0);
-    font: normal normal 800 normal 13px / 16.9px 'Gentium Book Basic', serif;
     list-style: none outside none;
     outline: rgb(0, 0, 0) none 0px;
-}/*#A_1*/
+    position: relative;
+    float: left;
+}
+
+
+/*#A_1*/
 
 /*#circle_1 {
     fill: rgba(255, 255, 255, 0);
@@ -44,7 +104,7 @@
 
 /* ---- Timeline ---- */
 
-ol {
+/*ol {
 }
 
 ol::before,
@@ -53,14 +113,13 @@ ol::after {
     position: absolute;
     top: -8px;
     display: block;
-    width: 0;
-    height: 0;
-  border-radius: 10px;
+    width: 10;
+    height: 10;
 }
 
 ol::before {
     left: -5px;
-}
+}*/
 
 /*ol::after {
     right: -10px;
@@ -72,7 +131,7 @@ ol::before {
 
 /* ---- Timeline elements ---- */
 
-li {
+/*li {
     position: relative;
     top: 35px;
     display: inline-block;
@@ -91,14 +150,15 @@ li::before {
     height: 6px;
     border: 3px solid #9b2;
     border-radius: 10px;
-}
+}*/
 
 /* ---- Details ---- */
 
 
 .details {
-    display: none;
+    display: block;
     position: absolute;
+    width: 100px;
     /* left: -85px; */
     /* top: 60px; */
     padding: 15px;
@@ -110,31 +170,38 @@ li::before {
     background: #fff;
 }
 
-.details::before {
-    content: "";
+#luomo {
+	z-index:7;
+	margin-right: 0px;
+    margin: 70px;
+    margin-left: 260px;
+    max-width: 170px;
+    position: relative;
+}
+
+.text{
+}
+
+#details {
     position: absolute;
     left: 10px;
     top: -9px;
-    display: block;
-    width: 0;
+    width: 100px;
     height: 0;
     border: 10px solid transparent;
     border-bottom-color: #fff;
     border-top: 0;
 }
 
-img {
-    
-    padding: 5px;
-}
-
 /* ---- Hover effects ---- */
 
-li:hover {
- cursor: pointer;
-  color: #28e;
-}
-li:hover::before {
+
+
+/* div:hover {
+   cursor: pointer;
+  /* color: #28e; */
+/* }
+/* div:hover::before {
     top: 1px;
     left: -31px;
     width: 8px;
@@ -142,7 +209,7 @@ li:hover::before {
     border-width: 5px;
     border-color: #28e;
 }
-li:hover .details {
+div:hover .text {
     display: block;
   color: #444;
 }

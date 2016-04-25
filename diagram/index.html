@@ -2,48 +2,89 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+			<div id="title">
+				films: are scifi movies really fiction?
+			</div>
 
-<div id="container">
-<div id="nav">
-<a id="A_1">1920</a>
-<a id="A_1">1930</a>
-<a id="A_1">1940</a>
-<a id="A_1">1950</a>
-<a id="A_1">1960</a>
-<a id="A_1">1970</a>
-<a id="A_1">1980</a>
-<a id="A_1">1990</a>
-<a id="A_1">2000</a>
-<a id="A_1">2001</a>
-<a id="A_1">2002</a>
-<a id="A_1">2003</a>
-<a id="A_1">2004</a>
-<a id="A_1">2005</a>
-<a id="A_1">2006</a>
-<a id="A_1">2007</a>
-<a id="A_1">2008</a>
-<a id="A_1">2009</a>
-<a id="A_1">2010</a>
-<a id="A_1">2011</a>
-<a id="A_1">2012</a>
-<a id="A_1">2013</a>
-<a id="A_1">2014</a>
-<a id="A_1">2015</a>
-<a id="A_1">2016</a>
-</div>
+	<div id="container">
 
-<ol>
-  <li>
-    <span class="details">
-      Description of point 1
-    </span>
-  </li>
+		<div id="header">
+			<div id="subtitle">
+				Film as a source of expression, yearns to reveal the unknown.  Isaac Asimov defined science fiction as "that branch of literature which is concerned with the impact of scientific advance upon human beings". But how does science fiction respond to advancements in science and how close is science fiction portraying the potential of the world around them? Through this diagram, I hope to compare technology versus scifi and answer some of these questions.
+			</div>
 
-</div>
+
+		</div>
+
+			<img class="linework" src="linework.svg">
+
+		<div id="timeline">
+
+			<div id="nav">
+				<a id="A_1">1920</a>
+				<a id="A_1">1930</a>
+				<a id="A_1">1940</a>
+				<a id="A_1">1950</a>
+				<a id="A_1">1960</a>
+				<a id="A_1">1970</a>
+				<a id="A_1">1980</a>
+				<a id="A_1">1990</a>
+				<a id="A_1">2000</a>
+				<a id="A_1">2001</a>
+				<a id="A_1">2002</a>
+				<a id="A_1">2003</a>
+				<a id="A_1">2004</a>
+				<a id="A_1">2005</a>
+				<a id="A_1">2006</a>
+				<a id="A_1">2007</a>
+				<a id="A_1">2008</a>
+				<a id="A_1">2009</a>
+				<a id="A_1">2010</a>
+				<a id="A_1">2011</a>
+				<a id="A_1">2012</a>
+				<a id="A_1">2013</a>
+				<a id="A_1">2014</a>
+				<a id="A_1">2015</a>
+				<a id="A_1">2016</a>
+			</div>
+
+				<div id="luomo"> <img src="luomo.svg"> </div>
+
+			<div id="details">
+				Description of point 1
+			</div>
+
+		</div>
+
+
+	</div>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+
+	$('#details').css({opacity:0})
+
+	$('#luomo').on('mouseover', function() {
+		$('#details').css({opacity:1});
+	});
+
+	$('#luomo').on('mouseout', function() {
+		$('#details').css({opacity:0});
+	});
+
+});
+</script>
+
+
 
 </body>
 
