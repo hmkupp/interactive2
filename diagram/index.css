@@ -54,13 +54,14 @@ ol::after {
 ol::before {
     left: -5px;
 }
-ol::after {
+
+/*ol::after {
     right: -10px;
     border: 10px solid transparent;
     border-right: 0;
     border-left: 20px solid #9b2;
   border-radius: 3px;
-}
+}*/
 
 /* ---- Timeline elements ---- */
 
