@@ -26,6 +26,13 @@ $(document).ready(function() {
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
+
+        $('#nav ul li')
+.css({cursor: "pointer"})
+.on('click', function(){
+  $(this).find('ul').toggle();
+})
+
        
 });
 
@@ -81,29 +88,14 @@ $(document).click(function () {
 						<a href="index.html">Home</a>
 					</li>					<li>
 
-			
-						<a href="overview" class="overview">Overview</a>
-
-<label class="collapse" for="_1">Overview</label>
-<input id="_1" type="checkbox"> 
-<div>Scale</div>
-<div>Applications</div>
-<div>Resources</div>
-
-				<div id="subnav">
-
-					<ul>
-
-					</li>					<li>
-						<a href="Definition" class="design-name">Definition</a>
-					</li>	
-					</li>					<li>
-						<a href="Scale" class="design-name">Scale</a>
-					</li>					<li>
-						<a href="Applications" class="design-name">Applications</a>
-					</ul>
-
-				</div>
+<li id="overview">
+Overview
+    <ul>
+   <li>Scale</li>
+   <li>Applications</li>
+   <li>Resoures</li>
+  </ul>
+</li>
 
 					</li>					<li>
 						<a href="Resources" class="design-name">Resources</a>
@@ -144,7 +136,7 @@ $(document).click(function () {
 
 
 
-<div id="scale"><img src="Scale.png" alt="" width="960" height="90" id="atom" /></div>
+<div id="scale"><img src="nanoscale.svg" alt="" width="960" height="90" id="atom" /></div>
 
 <br>
 <br>
