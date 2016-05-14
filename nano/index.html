@@ -6,6 +6,9 @@
         	<link rel="stylesheet" type="text/css" href="nano.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript">
+
+
+
 $(document).ready(function() {
         // Tooltip only Text
         $('.masterTooltip').hover(function(){
@@ -25,32 +28,14 @@ $(document).ready(function() {
                 var mousey = e.pageY + 10; //Get Y coordinates
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
-        });
-
-        $('#nav ul li')
-.css({cursor: "pointer"})
-.on('click', function(){
-  $(this).find('ul').toggle();
-})
-
-       
+        });  
 });
 
-/* subnav */
-
-$("#subnav").hide();
-$(".overview").click(function (e) {
-    $("#subnav").toggle();
-    e.stopPropagation();
-});
-
-$("#subnav").click(function (e) {
-    e.stopPropagation();
-});
-
-$(document).click(function () {
-    $("#subnav").hide();
-}); 
+$('#nav ul li')
+		.css({cursor: "pointer"})
+		.on('click', function(){
+		  $(this).find('ul').toggle();
+		})
 
 </script>
 
@@ -91,8 +76,11 @@ $(document).click(function () {
 <li id="overview">
 Overview
     <ul>
+   <br>
    <li>Scale</li>
+   <br>
    <li>Applications</li>
+     <br>
    <li>Resoures</li>
   </ul>
 </li>
@@ -105,9 +93,7 @@ Overview
 
 					</ul>
 
-					 <div id="items"><img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
-    margin-bottom: 20px;
-    margin-top: 120px;/>
+	 <div id="items"><img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style=" margin-bottom: 20px; margin-top: 120px;/>
 
       <img src="lyticvirus.jpg" alt="" width="200" height="100" title="Size of a virus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
     margin-bottom: 20px;"/>
@@ -136,7 +122,7 @@ Overview
 
 
 
-<div id="scale"><img src="nanoscale.svg" alt="" width="960" height="90" id="atom" /></div>
+<div id="scale"><img src="nanoscale2.svg" alt="" width="960" height="90" id="atom" /></div>
 
 <br>
 <br>

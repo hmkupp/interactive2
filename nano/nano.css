@@ -105,10 +105,13 @@ nav {
 }
 
 /*subnav*/
-#nav ul ul{
-  display: none;
-  margin-left: 25px;
+
+#overview {
+	margin-left: 23px;
+    text-align: left; /* CHANGE TO LEFT OR RIGHT FOR MENU ALIGNMENT ! */ 	
+	
 }
+
 
 .sf-menu {
 	line-height: 0;
@@ -129,6 +132,13 @@ nav {
 }
 	*/
 
+
+#nav ul ul{
+  display: none;
+  margin-left: 25px;
+}
+
+
 nav ul {list-style-type: none !important;}
 
 nav ul li a {
@@ -143,18 +153,12 @@ nav ul li a {
 	text-decoration:none;
 	list-style-type: none !important;
 }
-nav ul li a:hover, nav ul li a.nav-selected, nav ul li a.nav-path-selected, nav ul li:hover, nav ul li a.nav-selected:hover, nav ul li a.nav-path-selected:hover {
-	/* customize_nav_link_hover */color:#BDBDBD;/* customize_nav_link_hover */
-	text-transform: underline;
-}
+
 nav ul li a:hover {
 	font-weight: normal;
 	color: #BDBDBD	;
 }
 
-nav ul li a.nav-selected:hover {
-	cursor: default;
-}
 
 .sf-menu li a.nav-last {
     border-right: 0px none !important;
