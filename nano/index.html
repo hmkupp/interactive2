@@ -26,7 +26,37 @@ $(document).ready(function() {
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
+        $("#subnav").hide();
+			$(".overview").click(function (e) {
+			    $("#subnav").toggle();
+			    e.stopPropagation();
+			});
+
+			$("#subnav").click(function (e) {
+			    e.stopPropagation();
+			});
+
+			$(document).click(function () {
+			    $("#subnav").hide();
+			}); 
 });
+
+/* subnav */
+
+$("#subnav").hide();
+$(".overview").click(function (e) {
+    $("#subnav").toggle();
+    e.stopPropagation();
+});
+
+$("#subnav").click(function (e) {
+    e.stopPropagation();
+});
+
+$(document).click(function () {
+    $("#subnav").hide();
+}); 
+
 </script>
 
 
@@ -37,7 +67,7 @@ $(document).ready(function() {
 <table class="externalLayout">
 <div id="title">
 	<h2>NANO TECHNOLOGY</h2>
-	<h4>An Overview for Designers</h4>
+	<div>A Brief Overview</div>
 </div>
 <tr>
 	<td class="externalBorderLeft" rowspan="2"></td>
@@ -52,7 +82,7 @@ $(document).ready(function() {
 	</td>
 	<td class="externalBorderRight" rowspan="2"></td>
 </tr>
-<tr>
+<tr>tml
         <table class="Nav">
        
 
@@ -62,31 +92,75 @@ $(document).ready(function() {
 					<li>
 						<a href="Home">Home</a>
 					</li>					<li>
-						<a href="About" class="design-name">About</a>
+
+			
+						<a href="overview" class="overview">Overview</a>
+
+				<div id="subnav">
+
+					<ul>
+
+					</li>					<li>
+						<a href="Definition" class="design-name">Definition</a>
+					</li>	
 					</li>					<li>
 						<a href="Scale" class="design-name">Scale</a>
 					</li>					<li>
 						<a href="Applications" class="design-name">Applications</a>
+					</ul>
+
+				</div>
+
 					</li>					<li>
 						<a href="Resources" class="design-name">Resources</a>
 					</li>					<li>
 						<a href="Sources" class="design-name">Sources</a> 
-					</li>					
+					</li>
+
 					</ul>
-				</nav>
+
+					 <div id="items"><img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;
+    margin-top: 120px;/>
+
+      <img src="lyticvirus.jpg" alt="" width="200" height="100" title="Size of a virus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;"/>
+	<img src="Nucleus.jpg" width="200" height="100" title="Size of a cellular nucleus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;"/>
+      <img src="Humanhair.jpg" alt="" width="200" height="100" title="Size of a human hair: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;"/>
+
+    </div>
+
+			</nav>
+
 	</div>
     	
-	<div id="header-wrapper"><h1>SCALE:</h1><h3>How big is a nanometer: Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. Due to dominance of spatial, temporal and dynamic variations
-in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques..</h3></div>
+	<div id="header-wrapper"><h1>SCALE: How big is a nanometer?</h1></div>
     
+    <br>
+<br>
+<br>
+<br>
+
     <div id="container">
-    
-      <div id="items"><img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip"/>
-      <img src="lyticvirus.jpg" alt="" width="200" height="100" title="Size of a virus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip"/>
-	<img src="Nucleus.jpg" width="200" height="100" title="Size of a cellular nucleus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip"/>
-      <img src="Humanhair.jpg" alt="" width="200" height="100" title="Size of a human hair: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip"/>
+
+<br>
+<br>
+
+
+
 <div id="scale"><img src="Scale.png" alt="" width="960" height="90" id="atom" /></div>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non accumsan est, nec lacinia ipsum. Etiam vestibulum nisi purus, non fringilla metus sagittis non. Suspendisse at ornare felis. Vestibulum sem elit, rutrum quis tincidunt sit amet, efficitur ultrices ante. Nam faucibus pretium ligula eget scelerisque. Ut ullamcorper fringilla diam a sollicitudin. Quisque pellentesque fermentum tellus eleifend auctor. Nullam tincidunt ac massa sed lobortis. Etiam blandit nibh id sapien iaculis, vitae tempus eros aliquam. Nullam fringilla, quam et convallis sagittis, massa ante tempor odio, sit amet mollis urna nunc vitae lectus. Integer libero orci, pulvinar quis finibus at, rutrum et odio. Mauris aliquet ipsum ligula, ut varius metus sollicitudin sed. Suspendisse sed fermentum ligula. Proin maximus dictum facilisis.</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    	<p>How big is a nanometer? Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. Due to dominance of spatial, temporal and dynamic variations
+in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques..</p>
 
 		<p>Suspendisse bibendum est eget risus posuere, quis aliquam arcu varius. Vivamus efficitur lacinia urna, mollis ultrices mi dictum a. Donec auctor eu augue porttitor malesuada. Vestibulum et pretium est. Donec sit amet metus mi. Sed tincidunt libero vitae ante gravida, finibus ultrices dolor dictum. Fusce eu tortor et sem lobortis volutpat sed a arcu. Aliquam eu interdum urna. Praesent pretium velit at lectus faucibus, vitae lobortis tellus ullamcorper. In auctor nulla leo, eget ullamcorper libero mattis quis. Fusce mattis augue id ornare rhoncus. Vestibulum in lorem eu tortor pulvinar condimentum. Duis leo erat, scelerisque id mollis eu, ornare id turpis.</p>
 </tr>

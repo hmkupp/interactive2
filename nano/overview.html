@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        	<link rel="stylesheet" type="text/css" href="overview.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+        // Tooltip only Text
+        $('.masterTooltip').hover(function(){
+                // Hover over code
+                var title = $(this).attr('title');
+                $(this).data('tipText', title).removeAttr('title');
+                $('<p class="tooltip"></p>')
+                .text(title)
+                .appendTo('body')
+                .fadeIn('slow');
+        }, function() {
+                // Hover out code
+                $(this).attr('title', $(this).data('tipText'));
+                $('.tooltip').remove();
+        }).mousemove(function(e) {
+                var mousex = e.pageX + 20; //Get X coordinates
+                var mousey = e.pageY + 10; //Get Y coordinates
+                $('.tooltip')
+                .css({ top: mousey, left: mousex })
+        });
+
+</script>
+
+
+	<title> Nanoscale - Homepage </title>
+</head>
+
+<body>
+<table class="externalLayout">
+<div id="title">
+	<h2>NANO TECHNOLOGY</h2>
+	<div>A Brief Overview</div>
+</div>
+
+<tr>
+	<td class="externalBorderLeft" rowspan="2"></td>
+	<td>
+		<table class="topBanner">
+    		<tr>
+    			<td width="160px"></td>
+    			
+			</td>
+		</tr>
+		</table>
+	</td>
+	<td class="externalBorderRight" rowspan="2"></td>
+</tr>
+<tr>
+        <table class="Nav">
+       
+
+	<div style="float: left">
+
+	    <nav role="navigation">
+					<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>					<li>
+
+			
+						<a href="overview" class="overview">Overview</a>
+
+				<div id="subnav">
+
+					<ul>
+
+					</li>					<li>
+						<a href="Definition" class="design-name">Definition</a>
+					</li>	
+					</li>					<li>
+						<a href="Scale" class="design-name">Scale</a>
+					</li>					<li>
+						<a href="Applications" class="design-name">Applications</a>
+					</ul>
+
+				</div>
+
+					</li>					<li>
+						<a href="Resources" class="design-name">Resources</a>
+					</li>					<li>
+						<a href="Sources" class="design-name">Sources</a> 
+					</li>
+
+					</ul>
+
+					 <div id="items">
+
+					 <div id="visual">A Visual Scale in Nanometers</div>
+
+					 <img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style=" margin-bottom: 20px; margin-top: 120px;/>
+
+      <img src="lyticvirus.jpg" alt="" width="200" height="100" title="Size of a virus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;"/>
+	<img src="Nucleus.jpg" width="200" height="100" title="Size of a cellular nucleus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;"/>
+      <img src="Humanhair.jpg" alt="" width="200" height="100" title="Size of a human hair: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;"/>
+
+    </div>
+
+			</nav>
+
+	</div>
+    	
+	<div id="header-wrapper"><h1>SCALE: How big is a nanometer?</h1></div>
+    
+    <br>
+<br>
+<br>
+<br>
+
+    <div id="container">
+
+<br>
+<br>
+
+
+
+<div id="scale"><img src="Scale.png" alt="" width="960" height="90" id="atom" /></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="paragraph">
+
+    	<p>How big is a nanometer? Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. Due to dominance of spatial, temporal and dynamic variations
+in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques..</p>
+
+		<p>Suspendisse bibendum est eget risus posuere, quis aliquam arcu varius. Vivamus efficitur lacinia urna, mollis ultrices mi dictum a. Donec auctor eu augue porttitor malesuada. Vestibulum et pretium est. Donec sit amet metus mi. Sed tincidunt libero vitae ante gravida, finibus ultrices dolor dictum. Fusce eu tortor et sem lobortis volutpat sed a arcu. Aliquam eu interdum urna. Praesent pretium velit at lectus faucibus, vitae lobortis tellus ullamcorper. In auctor nulla leo, eget ullamcorper libero mattis quis. Fusce mattis augue id ornare rhoncus. Vestibulum in lorem eu tortor pulvinar condimentum. Duis leo erat, scelerisque id mollis eu, ornare id turpis.</p>
+</div>
+
+
+
+</body>
+</html>
