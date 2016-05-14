@@ -26,19 +26,7 @@ $(document).ready(function() {
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
-        $("#subnav").hide();
-			$(".overview").click(function (e) {
-			    $("#subnav").toggle();
-			    e.stopPropagation();
-			});
-
-			$("#subnav").click(function (e) {
-			    e.stopPropagation();
-			});
-
-			$(document).click(function () {
-			    $("#subnav").hide();
-			}); 
+       
 });
 
 /* subnav */
@@ -82,7 +70,7 @@ $(document).click(function () {
 	</td>
 	<td class="externalBorderRight" rowspan="2"></td>
 </tr>
-<tr>tml
+<tr>
         <table class="Nav">
        
 
@@ -90,11 +78,17 @@ $(document).click(function () {
 	    <nav role="navigation">
 					<ul>
 					<li>
-						<a href="Home">Home</a>
+						<a href="index.html">Home</a>
 					</li>					<li>
 
 			
 						<a href="overview" class="overview">Overview</a>
+
+<label class="collapse" for="_1">Overview</label>
+<input id="_1" type="checkbox"> 
+<div>Scale</div>
+<div>Applications</div>
+<div>Resources</div>
 
 				<div id="subnav">
 
@@ -160,7 +154,7 @@ $(document).click(function () {
 <br>
 
     	<p>How big is a nanometer? Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. Due to dominance of spatial, temporal and dynamic variations
-in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques..</p>
+in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques.</p>
 
 		<p>Suspendisse bibendum est eget risus posuere, quis aliquam arcu varius. Vivamus efficitur lacinia urna, mollis ultrices mi dictum a. Donec auctor eu augue porttitor malesuada. Vestibulum et pretium est. Donec sit amet metus mi. Sed tincidunt libero vitae ante gravida, finibus ultrices dolor dictum. Fusce eu tortor et sem lobortis volutpat sed a arcu. Aliquam eu interdum urna. Praesent pretium velit at lectus faucibus, vitae lobortis tellus ullamcorper. In auctor nulla leo, eget ullamcorper libero mattis quis. Fusce mattis augue id ornare rhoncus. Vestibulum in lorem eu tortor pulvinar condimentum. Duis leo erat, scelerisque id mollis eu, ornare id turpis.</p>
 </tr>

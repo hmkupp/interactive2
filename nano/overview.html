@@ -3,11 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        	<link rel="stylesheet" type="text/css" href="overview.css" />
-
+        	<link rel="stylesheet" type="text/css" href="nano.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript">
-
 $(document).ready(function() {
         // Tooltip only Text
         $('.masterTooltip').hover(function(){
@@ -28,6 +26,36 @@ $(document).ready(function() {
                 $('.tooltip')
                 .css({ top: mousey, left: mousex })
         });
+        $("#subnav").hide();
+			$(".overview").click(function (e) {
+			    $("#subnav").toggle();
+			    e.stopPropagation();
+			});
+
+			$("#subnav").click(function (e) {
+			    e.stopPropagation();
+			});
+
+			$(document).click(function () {
+			    $("#subnav").hide();
+			}); 
+});
+
+/* subnav */
+
+$("#subnav").hide();
+$(".overview").click(function (e) {
+    $("#subnav").toggle();
+    e.stopPropagation();
+});
+
+$("#subnav").click(function (e) {
+    e.stopPropagation();
+});
+
+$(document).click(function () {
+    $("#subnav").hide();
+}); 
 
 </script>
 
@@ -41,13 +69,12 @@ $(document).ready(function() {
 	<h2>NANO TECHNOLOGY</h2>
 	<div>A Brief Overview</div>
 </div>
-
 <tr>
 	<td class="externalBorderLeft" rowspan="2"></td>
 	<td>
 		<table class="topBanner">
     		<tr>
-    			<td width="160px"></td>
+    			<td width="160px">&nbsp;</td>
     			
 			</td>
 		</tr>
@@ -60,15 +87,14 @@ $(document).ready(function() {
        
 
 	<div style="float: left">
-
 	    <nav role="navigation">
 					<ul>
 					<li>
-						<a href="index.html">Home</a>
+						<a href="Home">Home</a>
 					</li>					<li>
 
 			
-						<a href="overview" class="overview">Overview</a>
+						<a href="overview.html" class="overview">Overview</a>
 
 				<div id="subnav">
 
@@ -93,11 +119,9 @@ $(document).ready(function() {
 
 					</ul>
 
-					 <div id="items">
-
-					 <div id="visual">A Visual Scale in Nanometers</div>
-
-					 <img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style=" margin-bottom: 20px; margin-top: 120px;/>
+					 <div id="items"><img src="nanoparticle.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+    margin-bottom: 20px;
+    margin-top: 120px;/>
 
       <img src="lyticvirus.jpg" alt="" width="200" height="100" title="Size of a virus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
     margin-bottom: 20px;"/>
@@ -126,7 +150,7 @@ $(document).ready(function() {
 
 
 
-<div id="scale"><img src="nanoscale2.svg" alt="" width="960" height="90" id="atom" /></div>
+<div id="scale"><img src="Scale.png" alt="" width="960" height="90" id="atom" /></div>
 
 <br>
 <br>
@@ -134,14 +158,13 @@ $(document).ready(function() {
 <br>
 <br>
 <br>
-
-<div id="paragraph">
 
     	<p>How big is a nanometer? Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. Due to dominance of spatial, temporal and dynamic variations
-in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques..</p>
+in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques.</p>
 
 		<p>Suspendisse bibendum est eget risus posuere, quis aliquam arcu varius. Vivamus efficitur lacinia urna, mollis ultrices mi dictum a. Donec auctor eu augue porttitor malesuada. Vestibulum et pretium est. Donec sit amet metus mi. Sed tincidunt libero vitae ante gravida, finibus ultrices dolor dictum. Fusce eu tortor et sem lobortis volutpat sed a arcu. Aliquam eu interdum urna. Praesent pretium velit at lectus faucibus, vitae lobortis tellus ullamcorper. In auctor nulla leo, eget ullamcorper libero mattis quis. Fusce mattis augue id ornare rhoncus. Vestibulum in lorem eu tortor pulvinar condimentum. Duis leo erat, scelerisque id mollis eu, ornare id turpis.</p>
-</div>
+</tr>
+</table>
 
 
 
