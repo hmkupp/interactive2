@@ -7,9 +7,10 @@ body {
 }
 
 h1 {
-	color: #2BBEB5;
-	font-size: 1.3em;
-	display: inline !important;
+    margin-left: 10px;
+    color: #2BBEB5;
+    font-size: 1.3em;
+    display: inline !important;
 }
 
 h2{
@@ -35,6 +36,9 @@ h5 {
 	font-weight: normal;
 }
 
+p{    line-height: 1.9em;
+    margin: 0 0 0.5em;
+}
 
 
 #title {
@@ -51,22 +55,20 @@ h5 {
  }
 
 #container {
-	/* FOR FULL WIDTH SITE */
-	width:	960px !important;
-	max-width: 100% !important;
-	margin:0 auto ;
-	padding-top: 40px;
+   width: 960px !important;
+    max-width: 100% !important;
+    margin-left: 350px;
+    padding-top: 40px;
 }
 
 #header-wrapper h1 h3 {display: inline;}
 
 #header-wrapper {
-	width: 960px;
-	padding: 0;
-	margin: 0 auto;
-	background: #FFFFFF;
-	border-bottom: solid 3px #2BBEB5;
-}
+    width: 960px;
+    padding: 0;
+    margin-left: 350px;
+    background: #FFFFFF;
+    border-bottom: solid 3px #2BBEB5;}
 	
 header {
 	background: url('images/leaves.jpg') top left repeat-x;
