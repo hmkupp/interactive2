@@ -19,11 +19,12 @@ h1 {
 }
 
 h2{
-	margin-top: 60px;
     margin-left: 60px;
+    margin-bottom:7px;
     display: inline-block !important;
     color: #000;
-    font-size: 1.3em
+    font-size: 1.3em;
+    position:relative;
 }
 
 h3 {font-size: 1em;
@@ -66,8 +67,9 @@ p{  line-height: 1.9em;
 
 
 #header-wrapper {
-	width: 900px;
-    padding: 0;
+    width: 900px;
+    margin-top: 140px;
+    padding: 4px;
     margin-left: 420px;
     background: #FFFFFF;
     border-bottom: solid 3px #2BBEB5;
@@ -102,7 +104,9 @@ header {
 
 
 nav {
-	padding: 8px 7.8% 8px 4px;
+	margin-top: 40px;
+	display: inline-block !important;
+	width:10px;
 	text-align: left; /* CHANGE TO LEFT OR RIGHT FOR MENU ALIGNMENT ! */ 	
 	
 }
@@ -234,7 +238,7 @@ footer .row {
 }
 
 p  {
-    margin: 0 0 0.5em;
+	margin: 0 0 0.5em;
     font-size: 7pt;
     width: 315px;
     line-height: 2.0em;
