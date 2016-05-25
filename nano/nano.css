@@ -1,8 +1,8 @@
 body {
 	width:960px;
 	color: #333333;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-	font-size: 15px;
+	font-family: "skolar-sans-latin";
+	font-size: 14px;
 }
 
 #title {
@@ -19,11 +19,12 @@ h1 {
 }
 
 h2{
+	font-family: "skolar-sans-latin";
     margin-left: 60px;
     margin-bottom:7px;
     display: inline-block !important;
     color: #000;
-    font-size: 1.3em;
+    font-size: 16px;
     position:relative;
 }
 
@@ -60,17 +61,17 @@ p{  line-height: 1.9em;
 #container {
     width: 960px !important;
     max-width: 100% !important;
-    margin-left: 420px;
+    margin-left: 350px;
     padding-top: 40px;
 }
 
 
 
 #header-wrapper {
-    width: 900px;
+    width: 780px;
     margin-top: 140px;
     padding: 4px;
-    margin-left: 420px;
+    margin-left: 415px;
     background: #FFFFFF;
     border-bottom: solid 3px #2BBEB5;
 }
@@ -112,7 +113,7 @@ nav {
 }
 
 #scale2{
-    width: 110px;
+    width: 94px;
     color: #38BEB4;
     margin-left: 60px;
 
@@ -156,10 +157,11 @@ nav {
 nav ul {list-style-type: none !important;}
 
 nav ul li a {
+	font-family: "skolar-sans-latin";
 	line-height:2.0em;
 	color: #000;
 	text-transform: none;
-	font-size: 1.1em;
+	font-size: 14px;
 	font-weight: normal;
 	text-shadow: none !important;
 	padding: 0.5em 1.4em !important;
@@ -238,10 +240,14 @@ footer .row {
 }
 
 p  {
-	margin: 0 0 0.5em;
-    font-size: 7pt;
-    width: 315px;
-    line-height: 2.0em;
+	padding-right: 70px;
+    padding-left: 75px;
+    float: left;
+    margin: 0 0 0.5em;
+    font-family: "skolar-sans-latin";
+    font-size: 14px;
+    width: 320px;
+    line-height: 1.9em;
     margin-right: 2px;
 }
 
@@ -295,5 +301,38 @@ td.question {
 	padding:10px;
 	color:#2BBEB5;
 	font-size:12px Arial;
-	width: 400px;
+	width: 200px;
+}
+
+/*SUBNAV*/
+.nav .button-dropdown {
+    position: relative;
+}
+
+
+.nav li a:hover, .nav li a.dropdown-toggle.active {
+    background-color: #289dcc;
+    color: #fff;
+}
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span {
+    color: #fff;
+}
+
+.nav li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.nav li .dropdown-menu.active {
+    display: block;
+}
+
+.nav li .dropdown-menu a {
+    width: 150px;
 }

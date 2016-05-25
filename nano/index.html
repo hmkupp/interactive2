@@ -2,11 +2,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <script src="https://use.typekit.net/npl8rrn.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         	<link rel="stylesheet" type="text/css" href="nano.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript">
-
 
 
 $(document).ready(function() {
@@ -31,11 +32,32 @@ $(document).ready(function() {
         });  
 });
 
-$('#nav ul li')
-		.css({cursor: "pointer"})
-		.on('click', function(){
-		  $(this).find('ul').toggle();
-		})
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+    })
+});
+
+
 
 </script>
 
@@ -63,23 +85,34 @@ $('#nav ul li')
 						<a href="index.html">Home</a>
 					</li>					<li>
 
-<li id="overview">
-Overview
-    <ul>
-   <br>
-   <li>Scale</li>
-   <br>
-   <li>Applications</li>
-     <br>
-   <li>Resoures</li>
-  </ul>
-</li>
+<li class="button-dropdown">
+    <a href="javascript:void(0)" class="dropdown-toggle">
+      Overview 
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="#">
+          Scale
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Applications
+        </a>
+      </li>
+    </ul>
+  </li>
+          <li>
+            <a href="Sources" class="design-name">Resources</a> 
+          </li>
 
-					</li>					<li>
-						<a href="Resources" class="design-name">Resources</a>
-					</li>					<li>
+					<li>
 						<a href="Sources" class="design-name">Sources</a> 
 					</li>
+
+            <li>
+            <a href="Process" class="design-name">Process</a> 
+          </li>
 
 					</ul>
 
@@ -97,12 +130,21 @@ Overview
 
 	 <div id="items"><img src="skin.jpg" width="200" height="100" title="Size of an Atom: ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style=" margin-bottom: 20px; margin-top: 28px;"/>
 
+      <div id="item 1">
       <img src="bacteriophage-01.jpg" alt="" width="200" height="100" title="Size of a virus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
     margin-bottom: 20px;"/>
-	<img src="blood-01.jpg" width="200" height="100" title="Size of a cellular nucleus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+      </div>
+
+       <div id="item 2">
+  	<img src="blood-01.jpg" width="200" height="100" title="
+      Size of a cellular nucleus: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
+     margin-bottom: 20px;"/>
+    </div>
+
+      <div id="item3">
+      <img src="hair-01.jpg" alt="" width="200" height="100 title="Size of a human hair: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
     margin-bottom: 20px;"/>
-      <img src="hair-01.jpg" alt="" width="200" height="100" title="Size of a human hair: Nam ac justo sit amet ligula luctus varius id at odio. In maximus magna vel neque efficitur, eget molestie nunc maximus. Nullam blandit elit id ultricies tincidunt. Fusce urna eros, dapibus in ex at, aliquet aliquam risus. Aliquam non lacus at velit ultricies feugiat" class="masterTooltip" style="
-    margin-bottom: 20px;"/>
+    </div>
 
     </div>
 
@@ -134,10 +176,10 @@ Overview
 <br>
 <br>
 
-    	<p>How big is a nanometer? Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. Due to dominance of spatial, temporal and dynamic variations
-in the nanoscale era, it is prudent for companies to try to mitigate the potential risks of nanoparticles during the design stage rather than downstream during manufacturing or customer use.  Ways to solve these challenges include having precise design margins and adaptive design techniques.</p>
+    	<p>Nano means "billionth", so a nanometer is one billionth of a meter. In other words, the nanoscale is 1000 times smaller than the microscopic scale and a billion (1000 million) times smaller than the world of meters that we live in. One nanometer is a magical point on the dimensional scale because there is a sudden shift of all properties of material when they just enters into the nanoscale.
+As material size reduces from centimeter (bulk) to nanometer scale, properties mostly decreases as much as six orders of magnitude to that at macro level. The reason for this change is due to the nature of interactions among the atoms that are averaged out of existence in the bulk material. The same can be explained in another way i.e., surface energy increases with the overall surface area which in turn strongly dependent on the dimension of material. </p>
 
-		<p>Suspendisse bibendum est eget risus posuere, quis aliquam arcu varius. Vivamus efficitur lacinia urna, mollis ultrices mi dictum a. Donec auctor eu augue porttitor malesuada. Vestibulum et pretium est. Donec sit amet metus mi. Sed tincidunt libero vitae ante gravida, finibus ultrices dolor dictum. Fusce eu tortor et sem lobortis volutpat sed a arcu. Aliquam eu interdum urna. Praesent pretium velit at lectus faucibus, vitae lobortis tellus ullamcorper. In auctor nulla leo, eget ullamcorper libero mattis quis. Fusce mattis augue id ornare rhoncus. Vestibulum in lorem eu tortor pulvinar condimentum. Duis leo erat, scelerisque id mollis eu, ornare id turpis.</p>
+		<p>  As nanostructures are having reduced dimensions, it leads to increase in surface energy via increase in surface area. Donec auctor eu augue porttitor malesuada. Vestibulum et pretium est. Donec sit amet metus mi. Sed tincidunt libero vitae ante gravida, finibus ultrices dolor dictum. Fusce eu tortor et sem lobortis volutpat sed a arcu. Aliquam eu interdum urna. Praesent pretium velit at lectus faucibus, vitae lobortis tellus ullamcorper. In auctor nulla leo, eget ullamcorper libero mattis quis. Fusce mattis augue id ornare rhoncus. Vestibulum in lorem eu tortor pulvinar condimentum. Duis leo erat, scelerisque id mollis eu, ornare id turpis.</p>
 </tr>
 
 
