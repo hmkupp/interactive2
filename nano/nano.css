@@ -113,6 +113,7 @@ nav {
 }
 
 #scale2{
+	position:fixed;
     width: 94px;
     color: #38BEB4;
     margin-left: 60px;
@@ -292,7 +293,13 @@ td.question {
 	border-radius: 5px !important;
 }
 
+#vscale {
+	position:fixed;
+}
+
+
 #items {
+	position:relative;
     margin-left: 60px;
     width: 30px;
 }
