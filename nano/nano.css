@@ -8,7 +8,7 @@ body {
 #title {
 	display: inline-block !important;
     margin-top: 100px;
-    margin-left: 60px;
+   /* margin-left: 60px;*/
 }
 
 
@@ -113,7 +113,6 @@ nav {
 }
 
 #scale2{
-	position:fixed;
     width: 94px;
     color: #38BEB4;
     margin-left: 60px;
@@ -125,7 +124,7 @@ nav {
 /*subnav*/
 
 #overview {
-	margin-left: 23px;
+/*	margin-left: 23px;*/
     text-align: left; /* CHANGE TO LEFT OR RIGHT FOR MENU ALIGNMENT ! */ 	
 	
 }
@@ -199,7 +198,7 @@ nav ul li a:hover {
 #wrapper {
 	width: 100% !important;
 	background-color: #F5F5F5;
-	padding: 20px 0 !important;
+	/*padding: 20px 0 !important;*/
 }
 
 #wrapper .row {
@@ -221,7 +220,7 @@ footer {
 	width: 1400px;
     margin-top: 500px;
     height: 400px;
-   /* background-color: #ECE6E2;*/
+  /*  background-color: #ECE6E2;*/
     /* padding: 20px; */
     color: #FFFFFF;
     border: none;
@@ -261,12 +260,12 @@ p  {
 /* CONTACT FORM normal (table) layout */
 td.question {
 	width: 120px;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 }
 
 #msg {
 	font-weight: bold;
-	padding-bottom: 20px;
+/*	padding-bottom: 20px;*/
 	
 }
 
@@ -284,40 +283,35 @@ td.question {
 }
 
 /* CONTACT FORM */
-.miniSurveyView #msg {
+/*.miniSurveyView #msg {
 	background: none !important;
 	color: #444 !important;
 	padding: 15px !important;
 	border: 1px solid #999;
-	margin: 8px 0px 28px 0px !important;
-	border-radius: 5px !important;
+	/*margin: 8px 0px 28px 0px !important;*/
+	/*border-radius: 5px !important;
 }
-
-#vscale {
-	position:fixed;
-}
-
+*/
 
 #items {
-	position:relative;
     margin-left: 60px;
-    width: 30px;
+  /*  width: 30px;*/
 }
 
 .tooltip {
 	display:none;
 	position:absolute;
-	border:none;
 	background-color:#fff;
-	border-radius:2px;
-	padding:10px;
+/*	border-radius:2px;*/
 	color:#2BBEB5;
 	font-family: "skolar-sans-latin";
     font-size: 14px;
-	width: 240px;
+	width: 20%;
 }
 
 /*SUBNAV*/
+
+
 .nav .button-dropdown {
     position: relative;
 }
@@ -347,5 +341,5 @@ td.question {
 }
 
 .nav li .dropdown-menu a {
-    width: 150px;
+    width:30px;
 }
