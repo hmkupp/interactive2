@@ -13,8 +13,9 @@ body {
 
 #titre {
 	font-family: "skolar-sans-latin";
-	font-weight: medium;
+	font-weight: Bold;
 	font-size: 14px;
+	margin-left:75px;
 }
 
 
