@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script src="https://use.typekit.net/npl8rrn.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        	<link rel="stylesheet" type="text/css" href="nano.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+        // Tooltip only Text
+        $('.masterTooltip').hover(function(){
+                // Hover over code
+                var title = $(this).attr('title');
+                $(this).data('tipText', title).removeAttr('title');
+                $('<p class="tooltip"></p>')
+                .text(title)
+                .appendTo('body')
+                .fadeIn('slow');
+        }, function() {
+                // Hover out code
+                $(this).attr('title', $(this).data('tipText'));
+                $('.tooltip').remove();
+        }).mousemove(function(e) {
+                var mousex = e.pageX + 20; //Get X coordinates
+                var mousey = e.pageY + 10; //Get Y coordinates
+                $('.tooltip')
+                .css({ top: mousey, left: mousex })
+        });  
+});
+
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+    })
+});
+
+
+
+</script>
+
+
+	<title> Nanoscale - Homepage </title>
+</head>
+
+<body>
+<!-- <div id="title">
+	<h2>NANOTECHNOLOGY</h2>
+	<div>A Brief Overview</div>
+</div> -->
+  
+  <table class="Nav">
+       
+
+	<div style="float: left">
+
+  <h2>NANOTECHNOLOGY</h2>
+  <div style=" margin-left: 60px;">A Brief Overview</div>
+
+	    <nav role="navigation" style="height: 0px;">
+					<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>					<li>
+
+<li class="button-dropdown">
+    <a href="javascript:void(0)" class="dropdown-toggle">
+      Overview 
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="#">
+          Scale
+        </a>
+      </li>
+      <li>
+        <a href="applications.html">Applications</a>
+      </li>
+    </ul>
+  </li>
+          <li>
+            <a href="resources.html" class="design-name">Resources</a> 
+          </li>
+
+          <li>
+            <a href="Process" class="design-name">Process</a> 
+          </li>
+
+					</ul>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</nav>
+
+
+	</div>
+    	
+	<div id="header-wrapper"><h1>RESOURCES</h1></div>
+    
+    <br>
+
+<br>
+
+<div id="container">
+
+<br>
+
+
+    	<p>Nanoparticles have existed throughout the history of the world and can even be produced by some organisms. However, intentionally manmade nanoparticles, also called engineered nanoparticles, are somehow new.
+
+      <br><br>
+
+      Nanotechnology is a field of research that has quickly and greatly developed in the last decades, and the global market is already incorporating this technology into a wide variety of products. Despite that, most of the consumers are not really aware of this and think about nanotechnology as science fiction.
+     </p>
+
+		<p> 
+ Whatever our opinion on nanotechnology may be, what we don’t realise is that we are exposed to nanoparticles in our everyday life, not only through pollution, but by means of the products we
+use daily.
+
+<br><br>
+
+According to an EmTech Research (2005) survey of approximately 600 companies involved in R&D, manufacture, sale, or use of nanotechnology, the top three companies based on the number of
+nanotechnology-related patents issued were IBM, Intel, and L’Oreal. Other companies that ranked highly were large, technology-based businesses.</p>
+</tr>
+
+</div>
+
+</body>
+
+
+</html>
