@@ -11,6 +11,13 @@ body {
    /* margin-left: 60px;*/
 }
 
+#titre {
+	font-family: "skolar-sans-latin";
+	font-weight: medium;
+	font-size: 14px;
+}
+
+
 
 h1 {
     margin-left: 10px;
