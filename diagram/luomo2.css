@@ -157,11 +157,14 @@
 }
 
 #luomo {
+    padding-top: 10px;
     z-index: 7;
     margin: -90px;
     margin-left: 260px;
     max-width: 165px; 
 }
+
+
 
 .text{
 }
