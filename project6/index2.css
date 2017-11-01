@@ -136,7 +136,7 @@ p {
     border-bottom: 1px solid #fff;
 }
 
-.top{width:100%;display: flex;float:left;position: relative;
+.top{width:100%;display: flex;float:left;position: fixed;
   color: white;
 }
 
