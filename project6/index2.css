@@ -52,8 +52,11 @@ button:focus { outline: none; }
     overflow-y: scroll;
     padding-top: 20px;
     margin-top: -30px;
+<<<<<<< HEAD
     margin-left: -20px;
     margin-bottom: -5px;
+=======
+>>>>>>> origin/gh-pages
 
 }
 
