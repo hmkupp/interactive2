@@ -48,16 +48,31 @@
 //   })
 // });
 
+$('.slide-toggle').smoothState({
+  onStart: {
+    // How long this animation takes
+    duration: 0,
+    // A function that dictates the animations that take place
+    render: function ($container) {}
+  }
+});
+
+
  $(document).ready(function(){
-        $(".slide-toggle").click(function(){
+        $("a.slide-toggle").click(function(){
             $("#slideLeft").animate({
-                width: "toggle"
+                height: "toggle"
             });
         });
     });
 
+//  $(function() {
+//     $('#slideLeft').animate(400, 'linear', bottom: '500px');
+// });
+
+
  $(function() {
-    $('#slideLeft').animate(400, 'linear');
+    $('#slideLeft').animate({bottom:'100px'}, 200);
 });
 
 
