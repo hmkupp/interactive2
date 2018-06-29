@@ -25,11 +25,10 @@ background-color:grey;
   
 
 #samples-link #samples-menu-wrap {
-      width: 100wh;
+    width: 100wh;
     height: 280vh;
-    background: white;
-    color: blue;
-    background: transparent; /* Old browsers */
+    background-color:#e5E3E5;
+    color: blue;/* Old browsers */
     position: relative;
     width: 100%;
     height: 100%;
@@ -191,7 +190,7 @@ small, .font_small {font-size: 0.667em;}
 body {
   width: 100wh;
     color: black;
-    background-color: #ffffff;
+    background-color:#e5E3E5;
     width: 100wh;
     /*height: 280vh;*/
     color: white;
@@ -383,7 +382,7 @@ li{
     margin-left: 50px;
     overflow: scroll;
     color: black;
-    background-color:lightgrey;
+    background-color:#e5E3E5;
 /*  overflow: scroll;*/
 }
 

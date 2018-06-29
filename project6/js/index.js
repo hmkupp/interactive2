@@ -48,18 +48,8 @@
 //   })
 // });
 
-$('.slide-toggle').smoothState({
-  onStart: {
-    // How long this animation takes
-    duration: 0,
-    // A function that dictates the animations that take place
-    render: function ($container) {}
-  }
-});
-
-
  $(document).ready(function(){
-        $("a.slide-toggle").click(function(){
+        $(".slide-toggle").click(function(){
             $("#slideLeft").animate({
                 height: "toggle"
             });
@@ -72,7 +62,7 @@ $('.slide-toggle').smoothState({
 
 
  $(function() {
-    $('#slideLeft').animate({bottom:'100px'}, 200);
+    $('#slideLeft').animate({top:'100px'}, 400);
 });
 
 
