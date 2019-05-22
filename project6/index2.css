@@ -13,7 +13,7 @@
 
 .bg-blue{
 /* background: #F7F7F7;*/
-background-color:#c7c7c7;
+
 }
 
 
@@ -399,7 +399,7 @@ li{
     margin-left: 50px;
     overflow: scroll;
     color: white;
-/*  overflow: scroll;*/
+    overflow: scroll;
 }
 
 #SlideLeft.hidden{

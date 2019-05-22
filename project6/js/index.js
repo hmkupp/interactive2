@@ -66,6 +66,13 @@
 });
 
 
+$(.slide-toggle).slideLeft(speed,callback);
+
+$("#center").click(function(){
+    $("#samples-menu-wrap").slideLeft();
+});
+
+
 // var komm = komm || {};
 
 
