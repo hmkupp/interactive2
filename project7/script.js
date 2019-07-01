@@ -14,42 +14,44 @@ function myFunction() {
   }
 }
 
-// $('.box').on('click','.box__inner',function() {
-//   $(this).closest('.box').find('.box--active').removeClass('box--active');
-//   $(this).addClass('box--active');
-// }).on('click','.box--active',function() {
-//   $(this).removeClass('box--active');
-// });
 
-// var clicked=true;
-// $(".two").on('click', function(){
-//     if(clicked)
-//     {
-//         clicked=false;
-//         $(".purchasepage").css({"top": 0});
-//     }
-//     else
-//     {
-//         clicked=true;
-//         $(".purchasepage").css({"top": "-40px"});
-//     }
-// });
+$('.box').on('click','.box__inner',function() {
+  $(this).closest('.box').find('.box--active').removeClass('box--active');
+  $(this).addClass('box--active');
+}).on('click','.box--active',function() {
+  $(this).removeClass('box--active');
+});
 
-// function toggleSlider() {
-//     if ($("#two").is(":visible")) {
-//         $("#purchasepage").fadeOut(600, function(){
-//             $("#two").slideUp();
-//         });
-//     }
-//     else {
-//         $("#two").slideDown(600, function(){
-//             $("#contentThatFades").fadeIn();
-//         });
-//     }   
-// }
+var clicked=true;
+$(".two").on('click', function(){
+    if(clicked)
+    {
+        clicked=false;
+        $(".purchasepage").css({"top": 0});
+    }
+    else
+    {
+        clicked=true;
+        $(".purchasepage").css({"top": "-40px"});
+    }
+});
+
+function toggleSlider() {
+    if ($("#two").is(":visible")) {
+        $("#purchasepage").fadeOut(600, function(){
+            $("#two").slideUp();
+        });
+    }
+    else {
+        $("#two").slideDown(600, function(){
+            $("#contentThatFades").fadeIn();
+        });
+    }   
+}
+
 
 // <--transition-->!
-$("box a").on("click", function (event)(
+$(".two").on("click", function (event)(
 
   event.preventDefault()
 
@@ -57,18 +59,18 @@ $("box a").on("click", function (event)(
 
   window.history.pushState(null, null, href)
 
- $("nav a").removeClass("active")
+ $(".two").removeClass("active")
 
  $.ajax((
 
   url:href,
   success: function (data)(
-    $("section").fadeOut(250, function ()(
-      const newPage = $(data).filter("section").html()
+    $("wrapper").fadeOut(250, function ()(
+      const newPage = $(data).filter("wrapper").html()
 
-      $("section").html(newPage)
+      $("wrapper").html(newPage)
 
-      $("section").fadeIn(250)
+      $("wrapper").fadeIn(250)
       ))
     )
   )) 
